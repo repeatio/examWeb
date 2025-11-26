@@ -23,7 +23,9 @@ export default function PracticeSetup() {
     }
 
     const handleStart = () => {
-        navigate(`/practice/${questionBank.id}`, {
+        // Persist mode and wrong-flag via query params so refreshes can restore intended behavior
+        const search = `?mode=${encodeURIComponent(mode)}${isWrongQuestions ? '&wrong=1' : ''}`;
+        navigate(`/practice/${questionBank.id}${search}`, {
             state: {
                 questionBank,
                 mode,

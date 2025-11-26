@@ -87,22 +87,16 @@ export async function saveAnswerRecord(record) {
     await db.add('answerRecords', record);
 }
 
-export async function getAnswerRecords(questionBankId) {
-    const db = await initDB();
-    const tx = db.transaction('answerRecords', 'readonly');
-    const index = tx.objectStore('answerRecords').index('questionBankId');
-    return await index.getAll(IDBKeyRange.only(questionBankId));
-}
-
 // Wrong Question Operations
 export async function saveWrongQuestion(wrongQuestion) {
     const db = await initDB();
     const existing = await db.get('wrongQuestions', wrongQuestion.id);
 
     if (existing) {
-        // Update wrong count
-        existing.wrongCount += 1;
-        existing.lastWrongTime = wrongQuestion.lastWrongTime;
+        // Ensure wrongCount is a number, then increment
+        existing.wrongCount = (Number.isFinite(existing.wrongCount) ? existing.wrongCount : 0) + 1;
+        // Update last wrong time to the provided timestamp, or now if missing
+        existing.lastWrongTime = wrongQuestion.lastWrongTime || Date.now();
         await db.put('wrongQuestions', existing);
     } else {
         await db.put('wrongQuestions', wrongQuestion);
@@ -223,4 +217,7 @@ export async function getAnswerRecordsByBank(questionBankId) {
     const index = tx.objectStore('answerRecords').index('questionBankId');
     return await index.getAll(IDBKeyRange.only(questionBankId));
 }
+// NOTE: getAnswerRecordsByBank exists later in the file and is the canonical helper to
+// fetch answer records for a specific question bank. Keep a single implementation
+// to avoid confusion.
 

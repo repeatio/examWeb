@@ -12,11 +12,13 @@ export default function Practice() {
     const { bankId } = useParams();
     const [searchParams] = useSearchParams();
     const { questionBank: stateQuestionBank, mode: stateMode, isWrongQuestions: stateIsWrongQuestions, resume: stateResume } = location.state || {};
+    const paramMode = searchParams.get('mode');
+    const paramWrong = searchParams.get('wrong') === '1';
 
     // Use state if available, otherwise fallback to loading
     const [questionBank, setQuestionBank] = useState(stateQuestionBank || null);
-    const [mode, setMode] = useState(stateMode || 'sequential');
-    const [isWrongQuestions, setIsWrongQuestions] = useState(stateIsWrongQuestions || false);
+    const [mode, setMode] = useState(stateMode || paramMode || 'sequential');
+    const [isWrongQuestions, setIsWrongQuestions] = useState(stateIsWrongQuestions || paramWrong || false);
     const [resume, setResume] = useState(stateResume || false);
 
     const [questions, setQuestions] = useState([]);
@@ -136,6 +138,10 @@ export default function Practice() {
                         initialAnswers = progress.answers;
                         initialStats = progress.stats;
 
+                        // Restore mode and wrong-flag from saved progress if available
+                        if (progress.mode) currentMode = progress.mode;
+                        if (typeof progress.isWrongQuestions !== 'undefined') currentIsWrongQuestions = progress.isWrongQuestions;
+
                         // If we successfully loaded progress, we should also restore the questions from the progress
                         // because the progress saves the specific list of questions (shuffled or wrong questions subset)
                     }
@@ -166,6 +172,9 @@ export default function Practice() {
             setCurrentIndex(initialIndex);
             setAnswers(initialAnswers);
             setStats(initialStats);
+            // Make sure component state reflects resolved mode/flags
+            setMode(currentMode);
+            setIsWrongQuestions(currentIsWrongQuestions);
             setLoading(false);
         };
 
@@ -177,14 +186,16 @@ export default function Practice() {
         if (!loading && !isFinished && questions.length > 0 && !isWrongQuestions) {
             const saveProgress = async () => {
                 try {
-                    await savePracticeProgress({
-                        questionBankId: questionBank.id,
-                        questions,
-                        currentIndex,
-                        answers,
-                        stats,
-                        timestamp: Date.now(),
-                    });
+                        await savePracticeProgress({
+                            questionBankId: questionBank.id,
+                            questions,
+                            currentIndex,
+                            answers,
+                            stats,
+                            mode: currentMode,
+                            isWrongQuestions: currentIsWrongQuestions,
+                            timestamp: Date.now(),
+                        });
                 } catch (error) {
                     console.error('Failed to save progress:', error);
                 }
