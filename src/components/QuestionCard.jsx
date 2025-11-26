@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Check, X } from 'lucide-react';
 
 export default function QuestionCard({
@@ -11,6 +11,12 @@ export default function QuestionCard({
 }) {
     const [selectedOption, setSelectedOption] = useState(userAnswer || '');
     const [hasAnswered, setHasAnswered] = useState(showResult || false);
+
+    // Reset state when question changes
+    useEffect(() => {
+        setSelectedOption(userAnswer || '');
+        setHasAnswered(showResult || false);
+    }, [question.id, userAnswer, showResult]);
 
     const handleOptionClick = (option) => {
         if (hasAnswered) return;
@@ -55,8 +61,8 @@ export default function QuestionCard({
                     题目 {questionNumber} / {totalQuestions}
                 </span>
                 <span className={`px-3 py-1 rounded-full text-sm font-semibold ${question.type === 'choice'
-                        ? 'bg-blue-500/20 text-blue-300'
-                        : 'bg-purple-500/20 text-purple-300'
+                    ? 'bg-blue-500/20 text-blue-300'
+                    : 'bg-purple-500/20 text-purple-300'
                     }`}>
                     {question.type === 'choice' ? '选择题' : '判断题'}
                 </span>
@@ -133,8 +139,8 @@ export default function QuestionCard({
             {hasAnswered && (
                 <div className="mt-6 pt-6 border-t border-white/20 animate-slide-up">
                     <div className={`p-4 rounded-xl mb-4 ${selectedOption === question.answer
-                            ? 'bg-green-500/20 border border-green-400/50'
-                            : 'bg-red-500/20 border border-red-400/50'
+                        ? 'bg-green-500/20 border border-green-400/50'
+                        : 'bg-red-500/20 border border-red-400/50'
                         }`}>
                         <div className="flex items-center space-x-2 mb-2">
                             {selectedOption === question.answer ? (
