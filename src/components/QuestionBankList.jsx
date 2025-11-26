@@ -57,7 +57,7 @@ export default function QuestionBankList({ questionBanks, onDelete }) {
     const handleContinuePractice = (e, bank) => {
         e.stopPropagation();
         // Skip setup and go directly to practice
-        navigate('/practice', {
+        navigate(`/practice/${bank.id}`, {
             state: {
                 questionBank: bank,
                 mode: 'sequence', // Default to sequence when resuming, though Practice.jsx will use saved questions

@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { BookOpen } from 'lucide-react';
+import { BookOpen, Download } from 'lucide-react';
 import ExcelUploader from '../components/ExcelUploader';
 import QuestionBankList from '../components/QuestionBankList';
 import { getAllQuestionBanks, getAllWrongQuestions } from '../utils/db';
 import { useNavigate } from 'react-router-dom';
+import exampleFile from '../../assets/example.xlsx';
 
 export default function Home() {
     const [questionBanks, setQuestionBanks] = useState([]);
@@ -87,6 +88,16 @@ export default function Home() {
                 )}
 
                 {/* Excel Uploader */}
+                <div className="flex justify-end">
+                    <a
+                        href={exampleFile}
+                        download="example.xlsx"
+                        className="flex items-center space-x-2 text-gray-400 hover:text-white transition-colors"
+                    >
+                        <Download className="w-4 h-4" />
+                        <span>下载导入模板</span>
+                    </a>
+                </div>
                 <ExcelUploader onUploadSuccess={loadData} />
 
                 {/* Question Banks List */}

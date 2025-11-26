@@ -23,7 +23,7 @@ export default function PracticeSetup() {
     }
 
     const handleStart = () => {
-        navigate('/practice', {
+        navigate(`/practice/${questionBank.id}`, {
             state: {
                 questionBank,
                 mode,
@@ -80,14 +80,14 @@ export default function PracticeSetup() {
                             <div
                                 onClick={() => setMode('sequential')}
                                 className={`card-hover cursor-pointer ${mode === 'sequential'
-                                        ? 'bg-purple-500/20 border-purple-400'
-                                        : 'bg-white/5'
+                                    ? 'bg-purple-500/20 border-purple-400'
+                                    : 'bg-white/5'
                                     }`}
                             >
                                 <div className="flex items-start space-x-4">
                                     <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${mode === 'sequential'
-                                            ? 'bg-purple-500'
-                                            : 'bg-white/10'
+                                        ? 'bg-purple-500'
+                                        : 'bg-white/10'
                                         }`}>
                                         <List className="w-6 h-6" />
                                     </div>
@@ -104,14 +104,14 @@ export default function PracticeSetup() {
                             <div
                                 onClick={() => setMode('random')}
                                 className={`card-hover cursor-pointer ${mode === 'random'
-                                        ? 'bg-purple-500/20 border-purple-400'
-                                        : 'bg-white/5'
+                                    ? 'bg-purple-500/20 border-purple-400'
+                                    : 'bg-white/5'
                                     }`}
                             >
                                 <div className="flex items-start space-x-4">
                                     <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${mode === 'random'
-                                            ? 'bg-purple-500'
-                                            : 'bg-white/10'
+                                        ? 'bg-purple-500'
+                                        : 'bg-white/10'
                                         }`}>
                                         <Shuffle className="w-6 h-6" />
                                     </div>

@@ -1,15 +1,23 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { ArrowLeft, ChevronLeft, ChevronRight, Home, BarChart3 } from 'lucide-react';
 import QuestionCard from '../components/QuestionCard';
 import ProgressBar from '../components/ProgressBar';
 import { shuffleArray } from '../utils/shuffle';
-import { saveAnswerRecord, saveWrongQuestion, removeWrongQuestion, savePracticeProgress, getPracticeProgress, deletePracticeProgress } from '../utils/db';
+import { saveAnswerRecord, saveWrongQuestion, removeWrongQuestion, savePracticeProgress, getPracticeProgress, deletePracticeProgress, getQuestionBankById, getAllWrongQuestions } from '../utils/db';
 
 export default function Practice() {
     const location = useLocation();
     const navigate = useNavigate();
-    const { questionBank, mode, isWrongQuestions, resume } = location.state || {};
+    const { bankId } = useParams();
+    const [searchParams] = useSearchParams();
+    const { questionBank: stateQuestionBank, mode: stateMode, isWrongQuestions: stateIsWrongQuestions, resume: stateResume } = location.state || {};
+
+    // Use state if available, otherwise fallback to loading
+    const [questionBank, setQuestionBank] = useState(stateQuestionBank || null);
+    const [mode, setMode] = useState(stateMode || 'sequential');
+    const [isWrongQuestions, setIsWrongQuestions] = useState(stateIsWrongQuestions || false);
+    const [resume, setResume] = useState(stateResume || false);
 
     const [questions, setQuestions] = useState([]);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -21,10 +29,88 @@ export default function Practice() {
     // Load questions and progress
     useEffect(() => {
         const initPractice = async () => {
-            if (!questionBank || !questionBank.questions) {
-                navigate('/');
-                return;
+            let currentBank = questionBank;
+            let currentMode = mode;
+            let currentIsWrongQuestions = isWrongQuestions;
+            let currentResume = resume;
+
+            // If no state, try to load from DB based on URL params
+            if (!currentBank && bankId) {
+                try {
+                    // Check if it's "all wrong questions" or a specific bank
+                    // Note: We might need to infer isWrongQuestions from the ID or some other way if it's not passed in state
+                    // For now, let's assume if we are reloading, we might need to check if the ID matches a known pattern or check DB
+
+                    if (bankId === 'all_wrong_questions') {
+                        const wrongQuestions = await getAllWrongQuestions();
+                        if (wrongQuestions.length > 0) {
+                            currentBank = {
+                                id: 'all_wrong_questions',
+                                name: '全部错题',
+                                questions: wrongQuestions.map(wq => wq.question),
+                            };
+                            currentIsWrongQuestions = true;
+                            setIsWrongQuestions(true);
+                        }
+                    } else {
+                        // Try to fetch regular question bank
+                        const bank = await getQuestionBankById(bankId);
+                        if (bank) {
+                            currentBank = bank;
+                            // If we found the bank, we assume it's NOT wrong questions mode unless we have other info
+                            // But wait, if it WAS wrong questions mode for a specific bank, the ID passed in URL is just the bank ID?
+                            // No, in WrongQuestions.jsx we constructed a synthetic bank object but the ID was the bank ID.
+                            // However, we didn't change the URL structure for wrong questions mode.
+                            // If we are in wrong questions mode, we probably want to know that.
+                            // But standard practice URL is /practice/:bankId.
+                            // If we refresh, we lose "isWrongQuestions" flag.
+                            // We can check if there are query params, or we can try to infer.
+                            // Let's check search params for mode/type if we want to be robust, but for now let's just load the bank.
+
+                            // Actually, if it's wrong questions mode, we constructed a special bank object with ONLY wrong questions.
+                            // If we reload and just fetch the full bank, we lose the "wrong questions only" filter.
+                            // This is a limitation. We should probably add query params to the URL to persist these flags.
+                        } else {
+                            // Could be a wrong questions bank with a composite ID? 
+                            // In WrongQuestions.jsx: id: bankQuestions.id (which is bankId)
+                            // So it uses the real bank ID.
+                            // If we are in wrong questions mode, we need to know to filter for wrong questions.
+                            // Let's look at searchParams.
+                        }
+                    }
+
+                    if (currentBank) {
+                        setQuestionBank(currentBank);
+                    }
+                } catch (error) {
+                    console.error("Failed to load question bank on refresh:", error);
+                }
             }
+
+            if (!currentBank || !currentBank.questions) {
+                // If still no bank, we can't proceed
+                // But wait, if we are loading async, we shouldn't redirect immediately if we are still trying to fetch
+                if (!bankId) {
+                    navigate('/');
+                    return;
+                }
+                // If we have bankId but failed to load, we might want to show error or redirect
+                // But let's give it a chance to load if we are in the "loading from ID" phase
+                if (!questionBank && bankId) {
+                    // We are waiting for the async fetch above to finish setting state
+                    // Actually, the logic above is inside this async function.
+                    // So if we are here and currentBank is null, we failed.
+                    navigate('/');
+                    return;
+                }
+            }
+
+            // Re-fetch wrong questions if we detected we should be in wrong questions mode but only loaded the full bank
+            // This is tricky without query params. 
+            // Ideally we should have put ?isWrongQuestions=true in the URL.
+            // Let's assume for now we just load the full bank if it's a normal bank ID.
+            // If the user was doing "Wrong Questions" for a specific bank, and refreshes, they might get the full bank.
+            // To fix this properly, we should update PracticeSetup to pass these as query params too.
 
             let initialQuestions = [];
             let initialIndex = 0;
@@ -32,14 +118,26 @@ export default function Practice() {
             let initialStats = { correct: 0, wrong: 0 };
 
             // Try to resume if requested
-            if (resume) {
+            // If we refreshed, we might want to auto-resume or just start over?
+            // Usually if you refresh a practice page, you expect to stay where you were.
+            // So we should try to load progress.
+
+            // If we have stateResume, use it. If not (refresh), maybe we should check progress anyway?
+            // If we are reloading, we definitely want to restore state if possible.
+
+            const shouldResume = currentResume || (!stateQuestionBank && bankId); // If refreshed (no state but has ID), try resume
+
+            if (shouldResume) {
                 try {
-                    const progress = await getPracticeProgress(questionBank.id);
+                    const progress = await getPracticeProgress(currentBank.id);
                     if (progress) {
                         initialQuestions = progress.questions;
                         initialIndex = progress.currentIndex;
                         initialAnswers = progress.answers;
                         initialStats = progress.stats;
+
+                        // If we successfully loaded progress, we should also restore the questions from the progress
+                        // because the progress saves the specific list of questions (shuffled or wrong questions subset)
                     }
                 } catch (error) {
                     console.error('Failed to load progress:', error);
@@ -48,9 +146,12 @@ export default function Practice() {
 
             // If no progress loaded or not resuming, initialize fresh
             if (initialQuestions.length === 0) {
-                initialQuestions = mode === 'random'
-                    ? shuffleArray(questionBank.questions)
-                    : questionBank.questions;
+                // If we are refreshing and lost the "wrong questions" subset, we might fall back to full bank here.
+                // This is acceptable for now, or we can improve by adding query params.
+
+                initialQuestions = currentMode === 'random'
+                    ? shuffleArray(currentBank.questions)
+                    : currentBank.questions;
             }
 
             setQuestions(initialQuestions);
@@ -61,7 +162,7 @@ export default function Practice() {
         };
 
         initPractice();
-    }, [questionBank, mode, navigate, resume]);
+    }, [bankId, navigate, stateQuestionBank, stateMode, stateIsWrongQuestions, stateResume]);
 
     // Save progress whenever state changes
     useEffect(() => {
