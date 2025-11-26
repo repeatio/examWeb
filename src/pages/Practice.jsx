@@ -211,6 +211,7 @@ export default function Practice() {
 
                 {/* Question Card */}
                 <QuestionCard
+                    key={currentQuestion.id}
                     question={currentQuestion}
                     questionNumber={currentIndex + 1}
                     totalQuestions={questions.length}
@@ -239,9 +240,7 @@ export default function Practice() {
 
                     <button
                         onClick={handleNext}
-                        disabled={!currentAnswer}
-                        className={`btn-primary flex items-center space-x-2 ${!currentAnswer ? 'opacity-50 cursor-not-allowed' : ''
-                            }`}
+                        className="btn-primary flex items-center space-x-2"
                     >
                         <span>{currentIndex === questions.length - 1 ? '完成' : '下一题'}</span>
                         <ChevronRight className="w-5 h-5" />
