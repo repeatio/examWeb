@@ -11,7 +11,7 @@ export default function PracticeSetup() {
 
     if (!questionBank) {
         return (
-            <div className="container mx-auto px-4 py-8">
+            <div className="container mx-auto px-4 py-4 sm:py-8">
                 <div className="card max-w-2xl mx-auto text-center py-12">
                     <p className="text-gray-400 text-lg mb-4">未找到题库信息</p>
                     <button onClick={() => navigate('/')} className="btn-primary">
@@ -33,8 +33,8 @@ export default function PracticeSetup() {
     };
 
     return (
-        <div className="container mx-auto px-4 py-8">
-            <div className="max-w-3xl mx-auto">
+        <div className="container mx-auto px-4 py-4 sm:py-8">
+            <div className="max-w-3xl mx-auto pb-24 sm:pb-0">
                 {/* Back Button */}
                 <button
                     onClick={() => navigate(-1)}

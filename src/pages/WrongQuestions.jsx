@@ -112,7 +112,7 @@ export default function WrongQuestions() {
 
     if (loading) {
         return (
-            <div className="container mx-auto px-4 py-8">
+            <div className="container mx-auto px-4 py-4 sm:py-8">
                 <div className="card text-center py-12">
                     <div className="animate-spin w-12 h-12 border-4 border-purple-500 border-t-transparent rounded-full mx-auto mb-4"></div>
                     <p className="text-gray-400">加载中...</p>
@@ -123,7 +123,7 @@ export default function WrongQuestions() {
 
     if (wrongQuestions.length === 0) {
         return (
-            <div className="container mx-auto px-4 py-8">
+            <div className="container mx-auto px-4 py-4 sm:py-8">
                 <div className="max-w-3xl mx-auto">
                     <h1 className="text-4xl font-bold mb-8">错题集</h1>
 
@@ -144,8 +144,8 @@ export default function WrongQuestions() {
     }
 
     return (
-        <div className="container mx-auto px-4 py-8">
-            <div className="max-w-6xl mx-auto">
+        <div className="container mx-auto px-4 py-4 sm:py-8">
+            <div className="max-w-6xl mx-auto pb-24 sm:pb-0">
                 {/* Header */}
                 <div className="flex items-center justify-between mb-8">
                     <div>

@@ -368,8 +368,8 @@ export default function Practice() {
     const currentAnswer = answers[currentIndex];
 
     return (
-        <div className="container mx-auto px-4 py-8">
-            <div className="max-w-5xl mx-auto">
+        <div className="container mx-auto px-4 py-4 sm:py-8">
+            <div className="max-w-5xl mx-auto pb-24 sm:pb-0">
                 {/* Header */}
                 <div className="flex items-center justify-between mb-6">
                     <button
@@ -407,30 +407,54 @@ export default function Practice() {
                 />
 
                 {/* Navigation */}
-                <div className="flex items-center justify-between mt-8 max-w-4xl mx-auto">
-                    <button
-                        onClick={handlePrevious}
-                        disabled={currentIndex === 0}
-                        className={`btn-secondary flex items-center space-x-2 ${currentIndex === 0 ? 'opacity-50 cursor-not-allowed' : ''
-                            }`}
-                    >
-                        <ChevronLeft className="w-5 h-5" />
-                        <span>上一题</span>
-                    </button>
+                <div className="mt-8 max-w-4xl mx-auto">
+                    {/* Desktop / tablet: normal flow */}
+                    <div className="hidden sm:flex items-center justify-between">
+                        <button
+                            onClick={handlePrevious}
+                            disabled={currentIndex === 0}
+                            className={`btn-secondary flex items-center space-x-2 ${currentIndex === 0 ? 'opacity-50 cursor-not-allowed' : ''}`}
+                        >
+                            <ChevronLeft className="w-5 h-5" />
+                            <span>上一题</span>
+                        </button>
 
-                    <div className="text-center">
-                        <p className="text-sm text-gray-400">
-                            已答 <span className="text-purple-400 font-bold">{Object.keys(answers).length}</span> / {questions.length}
-                        </p>
+                        <div className="text-center">
+                            <p className="text-sm text-gray-400">已答 <span className="text-purple-400 font-bold">{Object.keys(answers).length}</span> / {questions.length}</p>
+                        </div>
+
+                        <button
+                            onClick={handleNext}
+                            className="btn-primary flex items-center space-x-2"
+                        >
+                            <span>{currentIndex === questions.length - 1 ? '完成' : '下一题'}</span>
+                            <ChevronRight className="w-5 h-5" />
+                        </button>
                     </div>
 
-                    <button
-                        onClick={handleNext}
-                        className="btn-primary flex items-center space-x-2"
-                    >
-                        <span>{currentIndex === questions.length - 1 ? '完成' : '下一题'}</span>
-                        <ChevronRight className="w-5 h-5" />
-                    </button>
+                    {/* Mobile: fixed bottom nav so it's visible when explanation expands */}
+                    <div className="sm:hidden fixed left-4 right-4 bottom-4 z-50 bg-white/5 backdrop-blur-sm rounded-xl p-3 flex items-center justify-between shadow-lg">
+                        <button
+                            onClick={handlePrevious}
+                            disabled={currentIndex === 0}
+                            className={`btn-secondary flex items-center space-x-2 ${currentIndex === 0 ? 'opacity-50 cursor-not-allowed' : ''}`}
+                        >
+                            <ChevronLeft className="w-5 h-5" />
+                            <span className="text-sm">上一题</span>
+                        </button>
+
+                        <div className="text-center px-2">
+                            <p className="text-xs text-gray-300">已答 <span className="text-purple-400 font-bold">{Object.keys(answers).length}</span> / {questions.length}</p>
+                        </div>
+
+                        <button
+                            onClick={handleNext}
+                            className="btn-primary flex items-center space-x-2"
+                        >
+                            <span className="text-sm">{currentIndex === questions.length - 1 ? '完成' : '下一题'}</span>
+                            <ChevronRight className="w-5 h-5" />
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
