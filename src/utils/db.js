@@ -166,3 +166,61 @@ export async function getAllPracticeProgress() {
     return await db.getAll('practiceProgress');
 }
 
+// Mark a question in a question bank as answered (persisted in the stored question bank)
+export async function markQuestionAsAnswered(questionBankId, questionId) {
+    const db = await initDB();
+    const bank = await db.get('questionBanks', questionBankId);
+    if (!bank) return;
+    const questions = (bank.questions || []).map(q => {
+        if (q.id === questionId) {
+            return { ...q, answered: true };
+        }
+        return q;
+    });
+    bank.questions = questions;
+    await db.put('questionBanks', bank);
+}
+
+// Reset answers for a question bank: remove answer records and clear stored progress and answered flags
+export async function resetAnswers(questionBankId) {
+    const db = await initDB();
+    // Delete related answer records
+    const tx = db.transaction(['answerRecords', 'practiceProgress', 'questionBanks'], 'readwrite');
+
+    const answerStore = tx.objectStore('answerRecords');
+    const answerIndex = answerStore.index('questionBankId');
+    let cursor = await answerIndex.openCursor(IDBKeyRange.only(questionBankId));
+    while (cursor) {
+        await cursor.delete();
+        cursor = await cursor.continue();
+    }
+
+    // Delete related practice progress
+    await tx.objectStore('practiceProgress').delete(questionBankId);
+
+    // Clear answered flags in stored question bank
+    const bank = await tx.objectStore('questionBanks').get(questionBankId);
+    if (bank && bank.questions) {
+        bank.questions = bank.questions.map(q => ({ ...q, answered: false }));
+        await tx.objectStore('questionBanks').put(bank);
+    }
+
+    await tx.done;
+}
+
+// Return unanswered questions for a given bank (by reading stored answered flags). If none, return []
+export async function getUnansweredQuestions(questionBankId) {
+    const db = await initDB();
+    const bank = await db.get('questionBanks', questionBankId);
+    if (!bank || !bank.questions) return [];
+    return bank.questions.filter(q => !q.answered);
+}
+
+// Get answer records for a bank
+export async function getAnswerRecordsByBank(questionBankId) {
+    const db = await initDB();
+    const tx = db.transaction('answerRecords', 'readonly');
+    const index = tx.objectStore('answerRecords').index('questionBankId');
+    return await index.getAll(IDBKeyRange.only(questionBankId));
+}
+

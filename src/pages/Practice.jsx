@@ -4,7 +4,7 @@ import { ArrowLeft, ChevronLeft, ChevronRight, Home, BarChart3 } from 'lucide-re
 import QuestionCard from '../components/QuestionCard';
 import ProgressBar from '../components/ProgressBar';
 import { shuffleArray } from '../utils/shuffle';
-import { saveAnswerRecord, saveWrongQuestion, removeWrongQuestion, savePracticeProgress, getPracticeProgress, deletePracticeProgress, getQuestionBankById, getAllWrongQuestions } from '../utils/db';
+import { saveAnswerRecord, saveWrongQuestion, removeWrongQuestion, savePracticeProgress, getPracticeProgress, deletePracticeProgress, getQuestionBankById, getAllWrongQuestions, markQuestionAsAnswered, getUnansweredQuestions } from '../utils/db';
 
 export default function Practice() {
     const location = useLocation();
@@ -125,7 +125,7 @@ export default function Practice() {
             // If we have stateResume, use it. If not (refresh), maybe we should check progress anyway?
             // If we are reloading, we definitely want to restore state if possible.
 
-            const shouldResume = currentResume || (!stateQuestionBank && bankId); // If refreshed (no state but has ID), try resume
+            const shouldResume = currentMode === 'sequential' || currentResume || (!stateQuestionBank && bankId); // For sequential mode, try to resume by default
 
             if (shouldResume) {
                 try {
@@ -146,12 +146,20 @@ export default function Practice() {
 
             // If no progress loaded or not resuming, initialize fresh
             if (initialQuestions.length === 0) {
-                // If we are refreshing and lost the "wrong questions" subset, we might fall back to full bank here.
-                // This is acceptable for now, or we can improve by adding query params.
-
-                initialQuestions = currentMode === 'random'
-                    ? shuffleArray(currentBank.questions)
-                    : currentBank.questions;
+                // If random mode, prefer unanswered questions only (shuffle them). If none unanswered, fall back to full list.
+                if (currentMode === 'random') {
+                    try {
+                        const unanswered = await getUnansweredQuestions(currentBank.id);
+                        const baseList = (unanswered && unanswered.length > 0) ? unanswered : currentBank.questions;
+                        initialQuestions = shuffleArray(baseList);
+                    } catch (err) {
+                        console.error('Failed to load unanswered questions:', err);
+                        initialQuestions = shuffleArray(currentBank.questions);
+                    }
+                } else {
+                    // sequential
+                    initialQuestions = currentBank.questions;
+                }
             }
 
             setQuestions(initialQuestions);
@@ -208,6 +216,16 @@ export default function Practice() {
             isCorrect,
             timestamp: Date.now(),
         });
+
+        // Mark question as answered in stored question bank
+        try {
+            await markQuestionAsAnswered(questionBank.id, currentQuestion.id);
+        } catch (err) {
+            console.error('Failed to mark question as answered:', err);
+        }
+
+        // Update local questions state to reflect answered flag so UI updates immediately
+        setQuestions(prev => prev.map((q, idx) => q.id === currentQuestion.id ? { ...q, answered: true } : q));
 
         // Handle wrong question collection
         if (!isCorrect) {
@@ -384,7 +402,7 @@ export default function Practice() {
                     questionNumber={currentIndex + 1}
                     totalQuestions={questions.length}
                     onAnswer={handleAnswer}
-                    showResult={!!currentAnswer}
+                    showResult={!!currentAnswer || !!currentQuestion.answered}
                     userAnswer={currentAnswer?.answer}
                 />
 

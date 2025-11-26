@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BookOpen, Trash2, Play, Calendar, FileText, RotateCcw } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { deleteQuestionBank, getPracticeProgress } from '../utils/db';
+import { deleteQuestionBank, getPracticeProgress, resetAnswers, getAnswerRecordsByBank } from '../utils/db';
 
 export default function QuestionBankList({ questionBanks, onDelete }) {
     const navigate = useNavigate();
@@ -11,17 +11,29 @@ export default function QuestionBankList({ questionBanks, onDelete }) {
     useEffect(() => {
         const loadProgress = async () => {
             const map = {};
-            for (const bank of questionBanks) {
-                try {
-                    const progress = await getPracticeProgress(bank.id);
-                    if (progress) {
-                        map[bank.id] = progress;
+                for (const bank of questionBanks) {
+                    try {
+                        const progress = await getPracticeProgress(bank.id);
+                        // Also compute answered count based on answer records
+                        let answeredCount = 0;
+                        try {
+                            const records = await getAnswerRecordsByBank(bank.id);
+                            const uniqueIds = new Set(records.map(r => r.questionId));
+                            answeredCount = uniqueIds.size;
+                        } catch (err) {
+                            console.error('Failed to load answer records for bank', bank.id, err);
+                        }
+
+                        if (progress) {
+                            map[bank.id] = { ...progress, answeredCount };
+                        } else if (answeredCount > 0) {
+                            map[bank.id] = { answeredCount };
+                        }
+                    } catch (error) {
+                        console.error(`Failed to load progress for bank ${bank.id}:`, error);
                     }
-                } catch (error) {
-                    console.error(`Failed to load progress for bank ${bank.id}:`, error);
                 }
-            }
-            setProgressMap(map);
+                setProgressMap(map);
         };
 
         if (questionBanks.length > 0) {
@@ -60,7 +72,6 @@ export default function QuestionBankList({ questionBanks, onDelete }) {
         navigate(`/practice/${bank.id}`, {
             state: {
                 questionBank: bank,
-                mode: 'sequence', // Default to sequence when resuming, though Practice.jsx will use saved questions
                 resume: true
             }
         });
@@ -139,7 +150,7 @@ export default function QuestionBankList({ questionBanks, onDelete }) {
                                 {hasProgress && (
                                     <div className="flex items-center space-x-2 text-green-400">
                                         <RotateCcw className="w-4 h-4" />
-                                        <span>已答 {progress.currentIndex} / {progress.questions.length} 题</span>
+                                        <span>已答 {progress.answeredCount ?? progress.currentIndex ?? 0} / {progress.questions ? progress.questions.length : bank.questions.length} 题</span>
                                     </div>
                                 )}
                             </div>
@@ -154,15 +165,38 @@ export default function QuestionBankList({ questionBanks, onDelete }) {
                                             <Play className="w-4 h-4" />
                                             <span>继续</span>
                                         </button>
+
+                                        <button
+                                            onClick={async (e) => {
+                                                e.stopPropagation();
+                                                if (!confirm('确认将该题库的答题状态重置为未答？此操作会删除已保存的答题记录。')) return;
+                                                try {
+                                                    await resetAnswers(bank.id);
+                                                    // reload progress map
+                                                    const newMap = { ...progressMap };
+                                                    delete newMap[bank.id];
+                                                    setProgressMap(newMap);
+                                                    alert('已重置题库答题状态');
+                                                } catch (err) {
+                                                    alert('重置失败：' + (err.message || err));
+                                                }
+                                            }}
+                                            className="flex-1 btn-secondary flex items-center justify-center space-x-2"
+                                        >
+                                            <RotateCcw className="w-4 h-4" />
+                                            <span>重置</span>
+                                        </button>
+
                                         <button
                                             onClick={(e) => {
                                                 e.stopPropagation();
+                                                // 跳到答题设置页面以选择模式
                                                 handleStartPractice(bank);
                                             }}
                                             className="flex-1 btn-secondary flex items-center justify-center space-x-2"
                                         >
                                             <RotateCcw className="w-4 h-4" />
-                                            <span>重开</span>
+                                            <span>选择模式</span>
                                         </button>
                                     </>
                                 ) : (
