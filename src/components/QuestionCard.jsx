@@ -18,13 +18,32 @@ export default function QuestionCard({
         setHasAnswered(showResult || false);
     }, [question.id, userAnswer, showResult]);
 
+    // Helper to get the correct answer label (A, B, C... or 对/错)
+    const getCorrectAnswerLabel = () => {
+        if (question.type === 'choice') {
+            // For choice questions, find the index of the answer text in options
+            const index = question.options.findIndex(opt => opt === question.answer);
+            if (index !== -1) {
+                return String.fromCharCode(65 + index);
+            }
+            // Fallback if answer is already a letter (though data shows it's text)
+            return question.answer;
+        } else {
+            // For judge questions, map "正确"/"错误" to "对"/"错"
+            if (question.answer === '正确') return '对';
+            if (question.answer === '错误') return '错';
+            return question.answer;
+        }
+    };
+
     const handleOptionClick = (option) => {
         if (hasAnswered) return;
 
         setSelectedOption(option);
         setHasAnswered(true);
 
-        const isCorrect = option === question.answer;
+        const correctAnswer = getCorrectAnswerLabel();
+        const isCorrect = option === correctAnswer;
 
         if (onAnswer) {
             onAnswer(option, isCorrect);
@@ -36,13 +55,15 @@ export default function QuestionCard({
             return selectedOption === option ? 'option-selected' : '';
         }
 
+        const correctAnswer = getCorrectAnswerLabel();
+
         // Show correct answer
-        if (option === question.answer) {
+        if (option === correctAnswer) {
             return 'option-correct';
         }
 
         // Show wrong answer if user selected it
-        if (option === selectedOption && option !== question.answer) {
+        if (option === selectedOption && option !== correctAnswer) {
             return 'option-wrong';
         }
 
@@ -52,6 +73,8 @@ export default function QuestionCard({
     const getOptionLabel = (index) => {
         return String.fromCharCode(65 + index); // A, B, C, D
     };
+
+    const correctAnswerLabel = getCorrectAnswerLabel();
 
     return (
         <div className="card max-w-4xl mx-auto animate-fade-in">
@@ -89,10 +112,10 @@ export default function QuestionCard({
                                     {getOptionLabel(index)}
                                 </span>
                                 <span className="flex-1 text-left">{option}</span>
-                                {hasAnswered && getOptionLabel(index) === question.answer && (
+                                {hasAnswered && getOptionLabel(index) === correctAnswerLabel && (
                                     <Check className="w-5 h-5 text-green-400 flex-shrink-0" />
                                 )}
-                                {hasAnswered && getOptionLabel(index) === selectedOption && getOptionLabel(index) !== question.answer && (
+                                {hasAnswered && getOptionLabel(index) === selectedOption && getOptionLabel(index) !== correctAnswerLabel && (
                                     <X className="w-5 h-5 text-red-400 flex-shrink-0" />
                                 )}
                             </div>
@@ -108,10 +131,10 @@ export default function QuestionCard({
                         >
                             <div className="flex items-center justify-between">
                                 <span className="text-lg font-semibold">✓ 对</span>
-                                {hasAnswered && '对' === question.answer && (
+                                {hasAnswered && '对' === correctAnswerLabel && (
                                     <Check className="w-5 h-5 text-green-400" />
                                 )}
-                                {hasAnswered && '对' === selectedOption && '对' !== question.answer && (
+                                {hasAnswered && '对' === selectedOption && '对' !== correctAnswerLabel && (
                                     <X className="w-5 h-5 text-red-400" />
                                 )}
                             </div>
@@ -123,10 +146,10 @@ export default function QuestionCard({
                         >
                             <div className="flex items-center justify-between">
                                 <span className="text-lg font-semibold">✗ 错</span>
-                                {hasAnswered && '错' === question.answer && (
+                                {hasAnswered && '错' === correctAnswerLabel && (
                                     <Check className="w-5 h-5 text-green-400" />
                                 )}
-                                {hasAnswered && '错' === selectedOption && '错' !== question.answer && (
+                                {hasAnswered && '错' === selectedOption && '错' !== correctAnswerLabel && (
                                     <X className="w-5 h-5 text-red-400" />
                                 )}
                             </div>
@@ -138,12 +161,12 @@ export default function QuestionCard({
             {/* Result Feedback */}
             {hasAnswered && (
                 <div className="mt-6 pt-6 border-t border-white/20 animate-slide-up">
-                    <div className={`p-4 rounded-xl mb-4 ${selectedOption === question.answer
+                    <div className={`p-4 rounded-xl mb-4 ${selectedOption === correctAnswerLabel
                         ? 'bg-green-500/20 border border-green-400/50'
                         : 'bg-red-500/20 border border-red-400/50'
                         }`}>
                         <div className="flex items-center space-x-2 mb-2">
-                            {selectedOption === question.answer ? (
+                            {selectedOption === correctAnswerLabel ? (
                                 <>
                                     <Check className="w-6 h-6 text-green-400" />
                                     <span className="font-bold text-green-300 text-lg">回答正确！</span>
@@ -156,7 +179,7 @@ export default function QuestionCard({
                             )}
                         </div>
                         <p className="text-sm">
-                            正确答案：<span className="font-bold">{question.answer}</span>
+                            正确答案：<span className="font-bold">{correctAnswerLabel}</span>
                         </p>
                     </div>
 
