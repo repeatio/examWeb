@@ -1,12 +1,12 @@
 import { openDB } from 'idb';
 
 const DB_NAME = 'ExamWebDB';
-const DB_VERSION = 1;
+const DB_VERSION = 2;
 
 // Initialize the database
 export async function initDB() {
     const db = await openDB(DB_NAME, DB_VERSION, {
-        upgrade(db) {
+        upgrade(db, oldVersion, newVersion, transaction) {
             // Question Banks Store
             if (!db.objectStoreNames.contains('questionBanks')) {
                 db.createObjectStore('questionBanks', { keyPath: 'id' });
@@ -23,6 +23,11 @@ export async function initDB() {
             if (!db.objectStoreNames.contains('wrongQuestions')) {
                 const store = db.createObjectStore('wrongQuestions', { keyPath: 'id' });
                 store.createIndex('questionBankId', 'questionBankId');
+            }
+
+            // Practice Progress Store
+            if (!db.objectStoreNames.contains('practiceProgress')) {
+                db.createObjectStore('practiceProgress', { keyPath: 'questionBankId' });
             }
         },
     });
@@ -47,7 +52,7 @@ export async function getQuestionBankById(id) {
 
 export async function deleteQuestionBank(id) {
     const db = await initDB();
-    const tx = db.transaction(['questionBanks', 'answerRecords', 'wrongQuestions'], 'readwrite');
+    const tx = db.transaction(['questionBanks', 'answerRecords', 'wrongQuestions', 'practiceProgress'], 'readwrite');
 
     // Delete the question bank
     await tx.objectStore('questionBanks').delete(id);
@@ -69,6 +74,9 @@ export async function deleteQuestionBank(id) {
         await cursor.delete();
         cursor = await cursor.continue();
     }
+
+    // Delete related progress
+    await tx.objectStore('practiceProgress').delete(id);
 
     await tx.done;
 }
@@ -136,3 +144,25 @@ export async function clearWrongQuestionsByBankId(questionBankId) {
 
     await tx.done;
 }
+
+// Practice Progress Operations
+export async function savePracticeProgress(progress) {
+    const db = await initDB();
+    await db.put('practiceProgress', progress);
+}
+
+export async function getPracticeProgress(questionBankId) {
+    const db = await initDB();
+    return await db.get('practiceProgress', questionBankId);
+}
+
+export async function deletePracticeProgress(questionBankId) {
+    const db = await initDB();
+    await db.delete('practiceProgress', questionBankId);
+}
+
+export async function getAllPracticeProgress() {
+    const db = await initDB();
+    return await db.getAll('practiceProgress');
+}
+

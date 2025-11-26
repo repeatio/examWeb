@@ -1,0 +1,41 @@
+{
+    "name": "选择题练习",
+    "questions": [
+        {
+            "id": "c1",
+            "type": "choice",
+            "content": "React 是由哪个公司开发的？",
+            "options": [
+                "Google",
+                "Facebook",
+                "Amazon",
+                "Microsoft"
+            ],
+            "answer": "Facebook"
+        },
+        {
+            "id": "c2",
+            "type": "choice",
+            "content": "HTML 是什么？",
+            "options": [
+                "超文本标记语言",
+                "编程语言",
+                "数据库",
+                "操作系统"
+            ],
+            "answer": "超文本标记语言"
+        },
+        {
+            "id": "c3",
+            "type": "choice",
+            "content": "CSS 用于什么？",
+            "options": [
+                "数据存储",
+                "页面样式",
+                "服务器逻辑",
+                "网络传输"
+            ],
+            "answer": "页面样式"
+        }
+    ]
+}

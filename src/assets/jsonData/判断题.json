@@ -1,0 +1,19 @@
+{
+    "name": "判断题练习",
+    "questions": [
+        {
+            "id": "j1",
+            "type": "judge",
+            "content": "JavaScript 是编译型语言。",
+            "options": [],
+            "answer": "错误"
+        },
+        {
+            "id": "j2",
+            "type": "judge",
+            "content": "React 组件必须返回一个根元素。",
+            "options": [],
+            "answer": "正确"
+        }
+    ]
+}

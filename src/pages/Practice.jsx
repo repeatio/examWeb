@@ -1,34 +1,88 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { ArrowLeft, ChevronLeft, ChevronRight, Home, BarChart3 } from 'lucide-react';
 import QuestionCard from '../components/QuestionCard';
 import ProgressBar from '../components/ProgressBar';
 import { shuffleArray } from '../utils/shuffle';
-import { saveAnswerRecord, saveWrongQuestion, removeWrongQuestion } from '../utils/db';
+import { saveAnswerRecord, saveWrongQuestion, removeWrongQuestion, savePracticeProgress, getPracticeProgress, deletePracticeProgress } from '../utils/db';
 
 export default function Practice() {
     const location = useLocation();
     const navigate = useNavigate();
-    const { questionBank, mode, isWrongQuestions } = location.state || {};
+    const { questionBank, mode, isWrongQuestions, resume } = location.state || {};
 
     const [questions, setQuestions] = useState([]);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [answers, setAnswers] = useState({});
     const [isFinished, setIsFinished] = useState(false);
     const [stats, setStats] = useState({ correct: 0, wrong: 0 });
+    const [loading, setLoading] = useState(true);
 
+    // Load questions and progress
     useEffect(() => {
-        if (!questionBank || !questionBank.questions) {
-            navigate('/');
-            return;
+        const initPractice = async () => {
+            if (!questionBank || !questionBank.questions) {
+                navigate('/');
+                return;
+            }
+
+            let initialQuestions = [];
+            let initialIndex = 0;
+            let initialAnswers = {};
+            let initialStats = { correct: 0, wrong: 0 };
+
+            // Try to resume if requested
+            if (resume) {
+                try {
+                    const progress = await getPracticeProgress(questionBank.id);
+                    if (progress) {
+                        initialQuestions = progress.questions;
+                        initialIndex = progress.currentIndex;
+                        initialAnswers = progress.answers;
+                        initialStats = progress.stats;
+                    }
+                } catch (error) {
+                    console.error('Failed to load progress:', error);
+                }
+            }
+
+            // If no progress loaded or not resuming, initialize fresh
+            if (initialQuestions.length === 0) {
+                initialQuestions = mode === 'random'
+                    ? shuffleArray(questionBank.questions)
+                    : questionBank.questions;
+            }
+
+            setQuestions(initialQuestions);
+            setCurrentIndex(initialIndex);
+            setAnswers(initialAnswers);
+            setStats(initialStats);
+            setLoading(false);
+        };
+
+        initPractice();
+    }, [questionBank, mode, navigate, resume]);
+
+    // Save progress whenever state changes
+    useEffect(() => {
+        if (!loading && !isFinished && questions.length > 0 && !isWrongQuestions) {
+            const saveProgress = async () => {
+                try {
+                    await savePracticeProgress({
+                        questionBankId: questionBank.id,
+                        questions,
+                        currentIndex,
+                        answers,
+                        stats,
+                        timestamp: Date.now(),
+                    });
+                } catch (error) {
+                    console.error('Failed to save progress:', error);
+                }
+            };
+            saveProgress();
         }
-
-        const questionsList = mode === 'random'
-            ? shuffleArray(questionBank.questions)
-            : questionBank.questions;
-
-        setQuestions(questionsList);
-    }, [questionBank, mode, navigate]);
+    }, [questions, currentIndex, answers, stats, isFinished, loading, questionBank, isWrongQuestions]);
 
     const handleAnswer = async (answer, isCorrect) => {
         const currentQuestion = questions[currentIndex];
@@ -77,15 +131,24 @@ export default function Practice() {
         }
     };
 
-    const handleNext = () => {
+    const handleNext = async () => {
         if (currentIndex < questions.length - 1) {
             setCurrentIndex(currentIndex + 1);
         } else if (!isFinished) {
             setIsFinished(true);
+            // Clear progress when finished
+            if (!isWrongQuestions) {
+                await deletePracticeProgress(questionBank.id);
+            }
         }
     };
 
-    const handleRestart = () => {
+    const handleRestart = async () => {
+        // Clear progress
+        if (!isWrongQuestions) {
+            await deletePracticeProgress(questionBank.id);
+        }
+
         setCurrentIndex(0);
         setAnswers({});
         setIsFinished(false);
@@ -98,7 +161,11 @@ export default function Practice() {
         setQuestions(questionsList);
     };
 
-    if (!questionBank || questions.length === 0) {
+    const handleExit = async () => {
+        navigate('/');
+    };
+
+    if (loading || !questionBank || questions.length === 0) {
         return (
             <div className="container mx-auto px-4 py-8">
                 <div className="card max-w-2xl mx-auto text-center py-12">
@@ -187,7 +254,7 @@ export default function Practice() {
                 {/* Header */}
                 <div className="flex items-center justify-between mb-6">
                     <button
-                        onClick={() => navigate('/')}
+                        onClick={handleExit}
                         className="flex items-center space-x-2 text-gray-400 hover:text-white transition-colors"
                     >
                         <ArrowLeft className="w-5 h-5" />
@@ -250,3 +317,4 @@ export default function Practice() {
         </div>
     );
 }
+
