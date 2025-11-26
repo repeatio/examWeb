@@ -1,0 +1,5584 @@
+{
+  "name": "判断题",
+  "questions": [
+    {
+      "id": "q_1764119005900_0_0gwgxgs6s",
+      "type": "judge",
+      "content": "低毒物质进入人体所引发的病变称慢性中毒。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_1_j7r5eljck",
+      "type": "judge",
+      "content": "毒物进入人体就叫中毒。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_2_sdptxb1uc",
+      "type": "judge",
+      "content": "职业中毒是指在生产过程中使用的有毒物质或有毒产品，以及生产中产生的有毒废气、废液、废渣引起的中毒。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_3_ge6z582ax",
+      "type": "judge",
+      "content": "大鼠经口急性毒性类别3判定依据为经口50＜LD50≤200mg／kg。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_4_x75o24m67",
+      "type": "judge",
+      "content": "有机化合物的反应一般为离子反应，反应速率较慢。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_5_bodyg9bxk",
+      "type": "judge",
+      "content": "已知引起人类生殖细胞发生可遗传突变的物质为类别1B生殖细胞致突变性物质。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_6_834d1mnwv",
+      "type": "judge",
+      "content": "当碱液进入眼睛时，浸入眼角膜会引起视力下降或失明。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_7_sr4s0h9uo",
+      "type": "judge",
+      "content": "生产经营单位聘用的退休人员因工负伤的，其医疗期间的待遇及一次性伤残补偿金，由聘用单位支付。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_8_3bmk8l8uk",
+      "type": "judge",
+      "content": "工伤保险费由生产经营单位和从业人员按比例分别缴纳。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_9_vcg334krs",
+      "type": "judge",
+      "content": "工作和休息是劳动者的基本权利之一。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_10_8e9ct7wu2",
+      "type": "judge",
+      "content": "从业人员有自残行为的，不能认定为工伤。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_11_w8ytthjlf",
+      "type": "judge",
+      "content": "不得在女职工怀孕期产期哺乳期解除劳动合同。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_12_kq3zvee8m",
+      "type": "judge",
+      "content": "电子式电动执行机构超小超轻，轻到了3~5公斤，而国内的DKZ、DKJ最轻也达30多公斤。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_13_ip1klhbdh",
+      "type": "judge",
+      "content": "kWh是电功率的单位。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_14_v7uuqcjhr",
+      "type": "judge",
+      "content": "按结构形状分类，PLC可分为整体式和分散式两种。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_15_y0ulqac8k",
+      "type": "judge",
+      "content": "基金会现场总线不仅仅是一种总线，而且是一个系统。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_16_glbt01wf1",
+      "type": "judge",
+      "content": "SCADA系统中，对于调度中心的服务器来讲，两台IO服务器是冗余的，如果一台服务器故障，另一台服务器承担所有实际工作，而不影响系统的操作。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_17_feqgurqsx",
+      "type": "judge",
+      "content": "MTBF是指计算机控制系统的平均无故障运行时间。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_18_mx3j7qva2",
+      "type": "judge",
+      "content": "ESD系统的监视型输入/输出卡件可对现场回路的状态进行监视。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_19_pexhocjj7",
+      "type": "judge",
+      "content": "ESD的故障安全是指ESD自身发生故障时，会影响到被控过程的安全运行。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_20_we8iwq53e",
+      "type": "judge",
+      "content": "FSC系统用户程序下装时，FORCE-ENANLE开关必须置于ON状态。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_21_y77yu5iji",
+      "type": "judge",
+      "content": "对于西门子PLC，诊断缓冲区是一个FIFO(先入先出)缓冲区，存储器复位时就被删除。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_22_03u98avyg",
+      "type": "judge",
+      "content": "STEP7可以将CPU中的程序和组态信息上载到PG/PC的项目中来。但只能将一个PLC的全部内容整个上载到项目中，不能单独上载用户程序块或硬件组态信息。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_23_25kes1uiz",
+      "type": "judge",
+      "content": "用户可以在STEP7中编写程序和对硬件进行组态，并通过编程器将用户程序和硬件组态信息下载到CPU，但不可以从CPU上载到编程器。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_24_u2ib3qtro",
+      "type": "judge",
+      "content": "STEP7可以将用户程序(OB、FC、FB和DB)下载到PLC的CPU中，但硬件组态信息(SDB)不能下载。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_25_o2v9tcsra",
+      "type": "judge",
+      "content": "对于西门子S7300或S7400PLC，如果访问不存在的数据单元或数据块，而且没有编写错误处理OB块，CPU将进入停止模式。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_26_p3d416reh",
+      "type": "judge",
+      "content": "在3-2-0的表决方式下，如果有一个CPU的运算结果与其他两个不同，系统将认为该CPU故障，并将其切除，其余两个CPU正常工作。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_27_242g7hwuk",
+      "type": "judge",
+      "content": "对于西门子PLC，可以利用块的比较功能来比较离线和在线的块，但不可以比较硬盘上的两个用户程序的块。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_28_1r9676pm8",
+      "type": "judge",
+      "content": "在使用西门子STEP7编程中，一个FB块在每次调用时，不能使用不同的背景数据块。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_29_0lwimee3x",
+      "type": "judge",
+      "content": "FSC系统逻辑编程语言是逻辑块。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_30_53uerkhw1",
+      "type": "judge",
+      "content": "真值表可以用来表示数字量的逻辑运算关系。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_31_dn2hns32y",
+      "type": "judge",
+      "content": "逻辑运算的基本运算方法包括交换律、结合律、分配律。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_32_qlm7db8kh",
+      "type": "judge",
+      "content": "PLC的编程器只能用于对程序进行写入、读出和修改。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_33_cpq0yz4w9",
+      "type": "judge",
+      "content": "可编程序控制器只能用于开关量控制，不能用于模拟量控制。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_34_obt5usw0t",
+      "type": "judge",
+      "content": "不同可编程序控制器制造商提供的编程语言有不同形式，它们一般无法互相兼容。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_35_23tl0wbh6",
+      "type": "judge",
+      "content": "PLC的英文含义是:ProgrammableLogicController。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_36_hwa0xl860",
+      "type": "judge",
+      "content": "PLC的英文全称是ProgrammableLogicController，这说明它只能进行逻辑计算。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_37_j7wm68irw",
+      "type": "judge",
+      "content": "结构化编程把过程要求的类似或相关的功能进行分类，并试图提供可以用于几个任务的通用解决方案。向指令块提供有关信息(以参数方式)，结构化程序能够重复利用这些通用模块。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_38_hin0qdez8",
+      "type": "judge",
+      "content": "模块化编程是把程序分成若干个程序块，每个程序块含有一些设备和任务的逻辑指令。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_39_7bbxgvzwx",
+      "type": "judge",
+      "content": "线性化编程具有不带分支的简单结构，一个简单的程序块包含了系统的所有指令，线性化编程类似于硬接线的继电器逻辑。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_40_41q3h532h",
+      "type": "judge",
+      "content": "当可编程序控制器用一个中心单元不能满足所要求的控制任务时，就要对系统进行扩展。通讯接口就是用于连接中心单元与扩展单元、扩展单元与扩展单元的模板。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_41_5ilu4d98o",
+      "type": "judge",
+      "content": "BCD码是用4个二进制数表示的十六进制数。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_42_43zfqr9ee",
+      "type": "judge",
+      "content": "在西门子PLC中，I3.4是一种按照位存取的操作数的表示方法，其具体含义如下:I:区域标识符，表示输入;3:字节地址;.:字节与为地址之间的分隔符;4:位号(0~7)",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_43_7vkypzn2p",
+      "type": "judge",
+      "content": "美国TRICONEX公司生产的TS3000系统是一种二重化的冗余容错控制系统，常用于炼油化工装置大型机组的控制。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_44_r0nrqsg3f",
+      "type": "judge",
+      "content": "美国TRICONEX公司生产的TS3000系统可实现对故障卡件的在线更换。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_45_j2jx95qyn",
+      "type": "judge",
+      "content": "TRICON系统从输入模块到主处理器到输出模块完全是三重化的。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_46_giwt8kq5k",
+      "type": "judge",
+      "content": "TRICON系统的软件具有对I/O变量的强制赋值功能。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_47_1oqvl8yhe",
+      "type": "judge",
+      "content": "TRICON系统主要用于连续量的控制I/O。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_48_4b6di34u1",
+      "type": "judge",
+      "content": "TMR(TripleModuleRedundant)的意思是双重模件冗余结构。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_49_bthp059xm",
+      "type": "judge",
+      "content": "数据库服务器用于进行数据的存储及网络发布(WEB)功能。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_50_gp0bcwo2a",
+      "type": "judge",
+      "content": "清洁的服务不属于清洁生产的内容。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_51_ki54axi64",
+      "type": "judge",
+      "content": "剧毒化学品的购买凭证准购证不得转让或者提供他人使用。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_52_exqlqldjf",
+      "type": "judge",
+      "content": "防护罩、安全阀等不属于安全防护装置。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_53_hrifp3uxh",
+      "type": "judge",
+      "content": "智能阀门定位器不是智能型现场仪表。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_54_htp3gxfkp",
+      "type": "judge",
+      "content": "在爆炸危险场所不可设置正压防爆的仪表箱，内装非防爆型仪表及其他电气设备。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_55_lgzgev0d3",
+      "type": "judge",
+      "content": "隔爆型电气设备的壳体内部是不可能发生爆炸的。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_56_bx8okngcc",
+      "type": "judge",
+      "content": "在国家规定安全电压等级下工作，就不会发生触电事故，更不会造成死亡事故。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_57_t648l7rxf",
+      "type": "judge",
+      "content": "槽车卸酸时，无须将槽车静电接地。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_58_9qj4yeuop",
+      "type": "judge",
+      "content": "西门子S7–300系列PLC，不可以带电更换模板、卡件。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_59_9d1imcp8b",
+      "type": "judge",
+      "content": "在离心分离操作中，离心力的大小对分离效果没有影响。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_60_qmdgttwgy",
+      "type": "judge",
+      "content": "电流通过人体内部，使人的心脏、肺等内部器官组织受到损伤是电伤。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_61_fl08jw633",
+      "type": "judge",
+      "content": "一台仪表在其规定的参比工作条件下使用时所产生的误差称为该表的基本误差。这种规定的参比工作条件即是正常工作条件或标准工作条件。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_62_wdogy696p",
+      "type": "judge",
+      "content": "在生产装置上或控制系统中使用的仪表其误差只有附加误差。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_63_c5minw8er",
+      "type": "judge",
+      "content": "仪表精度等级是根据已选定的仪表量程和工艺生产上所允许的最大测量误差求最大允许百分误差(即引用误差、折合误差)来确定的。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_64_qstzsg14d",
+      "type": "judge",
+      "content": "容错技术是发现并纠正错误，同时使系统继续正确运行的技术。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_65_812wkpoad",
+      "type": "judge",
+      "content": "职业病风险评估方法与安全风险评估方法是完全不同的两种方法。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_66_rv8nil0hu",
+      "type": "judge",
+      "content": "双重预防体系与安全生产标准化管理体系是完全不同的两个安全管理体系。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_67_ad5fsde1h",
+      "type": "judge",
+      "content": "个体防护不能被视为控制危害的主要手段，而只能作为一种辅助性措施。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_68_ceqj6cxip",
+      "type": "judge",
+      "content": "企业一旦发生重大危险源事故，本企业抢险抢救力量不足，不必请求社会力量援助。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_69_24zl5ru6c",
+      "type": "judge",
+      "content": "企业风险管控能力得到加强和提升与隐患排查治理体系建设的成果无关。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_70_dlfd93ga6",
+      "type": "judge",
+      "content": "通过双重预防机制的建设，能够切实解决“想不到、管不到、治理不到”问题。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_71_wjx4qi2co",
+      "type": "judge",
+      "content": "应急演练的基本任务是检验、评价和保持应急能力。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_72_kv5izx7tu",
+      "type": "judge",
+      "content": "在综合应急演练前，演练组织单位或策划人员可按照演练方案或脚本组织桌面演练或合成预演，熟悉演练实施过程的各个环节。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_73_q19ddlxey",
+      "type": "judge",
+      "content": "风险点操作及作业活动涵盖生产经营全过程所有常规和非常规状态的作业活动，动火、进入受限空间等特殊作业活动不作考虑。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_74_fz36hu69j",
+      "type": "judge",
+      "content": "工作危害分析法（JHA）适合于对作业活动中存在的风险进行分析。其不包括作业活动划分、选定、危险源辨识等步骤。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_75_ilnc3qr3s",
+      "type": "judge",
+      "content": "一般来说，用做装置或设备紧急停车的控制系统，应具备卡件或模块在线更换的功能。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_76_53ulavl00",
+      "type": "judge",
+      "content": "使用紧急停车系统，是为了确保装置或独立单元快速停车。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_77_53x8y6q8i",
+      "type": "judge",
+      "content": "我们常讲的紧急停车系统(ESD)、安全联锁系统(SIS)、仪表保护系统(IPS)、故障安全控制系统(FSC)均可称为安全仪表系统(SIS)。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_78_x5gbw0ep6",
+      "type": "judge",
+      "content": "安全栅的防爆标志等级必须不低于本安现场设备的防爆标志等级。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_79_y069gi2xy",
+      "type": "judge",
+      "content": "防爆等级标志由防爆电气设备的总标志Ex加其类型、类别、级别、组别构成。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_80_7sp754dgj",
+      "type": "judge",
+      "content": "危险场所是指爆炸性气体环境或可燃性粉尘环境大量出现或预期出现的数量足以要求对电气设备的结构、安装和使用采取专门预防措施的区域。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_81_lklg1orzf",
+      "type": "judge",
+      "content": "对爆炸危险区域的线路进行接线时，必须在设计文件规定采用的防爆接线箱内接线。接线必须牢固可靠，接触良好，并应加防松和防拔脱装置。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_82_xe2yrqpln",
+      "type": "judge",
+      "content": "安全栅是实现安全火花型防爆系统的关键仪表。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_83_qhdi4qyx1",
+      "type": "judge",
+      "content": "本质安全型电气设备是指采取一定措施后，在正常或事故状态所产生的“火花”均为“安全火花”。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_84_2e5nse0xs",
+      "type": "judge",
+      "content": "爆炸危险场所1区内的仪表配线，必须保证在万一发生接地、短路、断线等事故时，也不致形成点火源。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_85_h52956rzm",
+      "type": "judge",
+      "content": "安全火花型防爆仪表的防爆系统的重要条件是:一是现场仪表自身不产生非安全火花;二是安全场所的非安全火花不能窜入现场。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_86_79cy3w54a",
+      "type": "judge",
+      "content": "在危险场所使用了安全火花型防爆仪表，这样就构成了安全火花型防爆系统。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_87_gthb3hf8x",
+      "type": "judge",
+      "content": "安全火花型防爆仪表是指采取一定措施后，在正常或事故状态所产生的“火花”均为“安全火花”的仪表。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_88_82tbe0qpa",
+      "type": "judge",
+      "content": "国际电工委员会(IEC)规定，在危险程度最高的危险场所0区，只能采用Exia等级的本安防爆技术。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_89_1y8eij1ux",
+      "type": "judge",
+      "content": "本质安全型仪表设备按安全程度和使用场所不同，可分为Exia和Exib。Exia的防爆级别高于Exib。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_90_h0fhv756k",
+      "type": "judge",
+      "content": "ExdⅡBT4表示工厂用本安型电气设备，防爆等级为B级，温度组别为T4组。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_91_ic5e5i53c",
+      "type": "judge",
+      "content": "一般情况下，应将转动、传动部位用防护罩保护起来。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_92_1qx7kgtwx",
+      "type": "judge",
+      "content": "各种皮带运输机、链条机的传动部位，除安装防护罩外，还应有安全防护绳。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_93_9z6wzxum5",
+      "type": "judge",
+      "content": "安全联锁系统的安全等级称为安全度等级。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_94_96935cdqd",
+      "type": "judge",
+      "content": "联锁保护系统中的故障检测元件必须单独设置，最好是安装在现场的直接检测开关。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_95_1ez64idg7",
+      "type": "judge",
+      "content": "隔离式安全栅分为检测端安全栅和操作端安全栅两种。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_96_z8v0o41kq",
+      "type": "judge",
+      "content": "联锁保护系统用于工况达到危险状态时防止事故的发生和扩大，它属于闭环控制系统。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_97_dp3dhe11b",
+      "type": "judge",
+      "content": "本质安全化原则是指从一开始和从本质上实现安全，从根本上消除事故发生的可能性，从而达到预防事故发生的目的。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_98_4h4t1bg9f",
+      "type": "judge",
+      "content": "故障检测元件的双重化或三重化设置是为了防止检测元件的误动作发生联锁停车。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_99_u5b0ydkp7",
+      "type": "judge",
+      "content": "用人单位应当依照法律、法规要求，严格遵守国家职业卫生标准，落实职业病预防措施，从源头上控制和消除职业病危害。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_100_kehrhywo4",
+      "type": "judge",
+      "content": "高毒作业场所职业中毒危害因素不符合国家职业卫生标准和卫生要求时，用人单位必须立即停止高毒作业，并采取相应的治理措施;经治理，职业中毒危害因素符合国家职业卫生标准和卫生要求的，方可重新作业。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_101_2nacy9h55",
+      "type": "judge",
+      "content": "用人单位应当为从事使用有毒物品作业的劳动者提供符合国家职业卫生标准的防护用品，并确保劳动者正确使用。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_102_q23mw7emh",
+      "type": "judge",
+      "content": "《使用有毒物品作业场所劳动保护条例》规定，使用单位应将危险化学品的有关安全卫生资料向职工公开，教育职工识别安全标签、了解安全技术说明书、掌握必要的应急处理方法和自救措施，经常对职工进行工作场所安全使用化学品的教育和培训。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_103_obus9mokv",
+      "type": "judge",
+      "content": "防爆电气设备的检查和维护应由符合规定条件的有资质的专业人员进行，这些人员应经过包括各种防爆型式、安装实践、相关规章和规程以及危险场所分类的一般原理等在内的业务培训，这些人员还应接受适当的继续教育或定期培训，并具备相关经验和经过培训的资质证书。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_104_dkvl3i21z",
+      "type": "judge",
+      "content": "个体防护装备从业人员为防御物理、化学、生物等外界因素伤害所穿戴、配备和使用的各种护品的总称。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_105_ngs7bsrxo",
+      "type": "judge",
+      "content": "危险化学品安全管理条例规定:“国家对危险化学品经营销售实行许可制度，未经许可，任何单位和个人都不得经营销售危险化学品。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_106_jz0j9e50p",
+      "type": "judge",
+      "content": "在确保安全的情况下单位和个人可以经营销售危险化学品。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_107_jmmsmsvvt",
+      "type": "judge",
+      "content": "剧毒化学品经营企业应当每天核对剧毒化学品的销售情况，发现被盗、丢失、误售等情况时，必须立即向当地公安部门报告。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_108_3xgneixh9",
+      "type": "judge",
+      "content": "个体防护用品可以降低作业场所有害化学品的浓度。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_109_qc4ixp32q",
+      "type": "judge",
+      "content": "卫生工程措施的优先原则是：应以无毒代替有毒、低毒代替高毒，优先采用无危害或危害小的工艺和物料。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_110_2ydp1hhsn",
+      "type": "judge",
+      "content": "各类危险品可以与少量禁忌物品混合储存。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_111_u3gtmn2t6",
+      "type": "judge",
+      "content": "运输危险货物应当配备必要的押运人员，保证危险货物处于押运人员的监管之下，并悬挂明显的危险货物运输标志。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_112_0dahza6gc",
+      "type": "judge",
+      "content": "石化生产中存在诸多不安全因素，事故多，损失大。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_113_v1ud6uh21",
+      "type": "judge",
+      "content": "违章作业和错误操作是导致触电事故最常见的原因。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_114_q0f7vj4c1",
+      "type": "judge",
+      "content": "职业病危害风险点主要指接触职业病危害的作业岗位（工种）。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_115_azbi2z4ua",
+      "type": "judge",
+      "content": "职业病危害风险是职业病危害因素导致职业病或职业健康损伤的可能性和严重性的组合；其中；严重性，是指发生职业病或职业健康损伤的结果。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_116_fophki538",
+      "type": "judge",
+      "content": "企业安全生产管理机构及人员存在的问题或缺陷为基础管理类隐患。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_117_cgcdg8xdv",
+      "type": "judge",
+      "content": "企业安全生产管理机构及人员存在的问题或缺陷为现场管理类隐患。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_118_xt4h26xfk",
+      "type": "judge",
+      "content": "企业生产经营单位资质证照存在的问题或缺陷为基础管理类隐患。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_119_lbvagrgqj",
+      "type": "judge",
+      "content": "设备设施存在问题或缺陷属于生产现场类隐患。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_120_ev15hdmnj",
+      "type": "judge",
+      "content": "对于实行安全生产许可的生产经营单位，未应急预案备案登记的，在申请安全生产许可证时，可以不提供相应的应急预案备案登记表，仅提供应急预案。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_121_zmzbrtnw5",
+      "type": "judge",
+      "content": "生产经营单位发生事故后，应当及时启动应急预案，组织有关力量进行救援，不必将事故信息及应急预案启动情况报告安全生产监督管理部门和其他负有安全生产监督管理职责的部门。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_122_dhugxmsf9",
+      "type": "judge",
+      "content": "生产经营单位未按照应急预案采取预防措施，导致事故救援不力或者造成严重后果的，由县级以上安全生产监督管理部门依照有关法律、法规和规章的规定，责令停产停业整顿，并依法给予行政处罚。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_123_m311rl7yu",
+      "type": "judge",
+      "content": "一般事故由事故调查组提出处理建议，直属企业批准处理即可。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_124_ipet789fd",
+      "type": "judge",
+      "content": "事故调查组有权向事故有关单位和个人了解与事故有关情况，并要求其提供相关文件资料，有关单位和个人可适当提供。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_125_y7ylrygrn",
+      "type": "judge",
+      "content": "当发生危险化学品事故时，现场人员必须根据各自企业制定的事故预案采取积极有效的抑制措施，尽量减少事故蔓延，并向有关部门报告和报警。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_126_nrdc3ctdw",
+      "type": "judge",
+      "content": "企业应制订事故处置程序，一旦发生重大事故，做到临危不惧，指挥不乱。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_127_pizboqecu",
+      "type": "judge",
+      "content": "事故单位的负责人和有关人员在事故调查期间不得擅离职守，并应当随时接受事故调查组的询问，如实提供有关情况。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_128_gxsgiz4ee",
+      "type": "judge",
+      "content": "危险化学品事故发生后，应依据危险化学品事故的类别、危害程度的级别和从业人员的评估结果，可能发生的事故现场情况分析结果，设定预案的启动条件。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_129_p8dhm22yp",
+      "type": "judge",
+      "content": "从业人员在发现直接危及人身安全的紧急情况时，有权停止作业或者在采取可能的应急措施后撤离作业场所。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_130_3ra4wpnyn",
+      "type": "judge",
+      "content": "应急救援人员在控制事故发展的同时，应将伤员救出危险区域和组织群众撤离、疏散，消除危险化学品事故的各种隐患。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_131_iqnnlly8e",
+      "type": "judge",
+      "content": "在应急救援过程中，有一名值班人员熟悉各种通信工具的报警方法、联络方式和信号就可以了。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_132_ttzbxf8hv",
+      "type": "judge",
+      "content": "企业要加强对各种救援队伍的培训，保证人员能够熟悉事故发生后所采取的对应方法和步骤，做到应知应会。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_133_hnfanj5kf",
+      "type": "judge",
+      "content": "应急预案的编制应该有明确、具体的事故预防措施和应急程序，并与其应急能力相适应。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_134_gfchk7qnz",
+      "type": "judge",
+      "content": "应急预案的管理遵循综合协调、分类管理、分级负责、属地为主的原则。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_135_qg2it55tk",
+      "type": "judge",
+      "content": "应急预案的要点和程序应当张贴在应急地点和应急指挥场所，并设有明显的标志。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_136_nriu0mt59",
+      "type": "judge",
+      "content": "应急预案应提出详尽、实用、明确、有效的技术和组织措施。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_137_18ujdlyde",
+      "type": "judge",
+      "content": "企业应加强应急管理，在隐患排查的基础上，编制与修订应急预案。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_138_4lggcqetb",
+      "type": "judge",
+      "content": "一个单位的不同类型的应急救援预案要形成统一整体，救援力量要统一安排。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_139_u3v7483ow",
+      "type": "judge",
+      "content": "危险化学品应急预案的编写过程，其科学性严谨性和可行性非常强，要专家支持，只要本单位工程技术相关人员参与就可以了。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_140_drftbdhvi",
+      "type": "judge",
+      "content": "重大危险源与重大风险无本质的区别。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_141_5e0ppulou",
+      "type": "judge",
+      "content": "风险与危险源有本质区别，二者之间没有联系。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_142_a052tuc0d",
+      "type": "judge",
+      "content": "隐患分级是根据隐患整改、治理和排除的难度及其可能导致事故后果和影响范围，分为一般事故隐患和特大事故隐患。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_143_hv0dbvwyk",
+      "type": "judge",
+      "content": "隐患排查是对生产经营全过程进行风险点辨识，形成风险点名称、所在位置、可能导致事故类型、风险等级等内容的基本信息。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_144_pjgxq5z3y",
+      "type": "judge",
+      "content": "隐患信息包括隐患名称、位置、状态描述、可能导致后果及其严重程度等信息，不包括治理目标、治理措施、职责划分、治理期限等治理信息。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_145_6i07fj602",
+      "type": "judge",
+      "content": "在危险源辨识时首先应该考虑根源危险源即第一类危险源。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_146_sh4cpn52z",
+      "type": "judge",
+      "content": "重大风险是指发生事故可能性与事故后果二者结合后风险值被认定为重大的风险类型。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_147_cxcer9ibz",
+      "type": "judge",
+      "content": "风险、隐患、事故三者之间的关系是：风险得不到有效管控就会演变成隐患，隐患得不到治理就会导致事故发生。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_148_svbpomebb",
+      "type": "judge",
+      "content": "风险分级通过采用科学、合理方法对危险源所伴随的风险进行定性或定量评价，根据评价结果划分等级。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_149_tqg6rejld",
+      "type": "judge",
+      "content": "风险矩阵法（简称LS），R=L×S，其中R是危险性（也称风险度），事故发生的可能性与事件后果的结合，L是事故发生的可能性；S是事故后果严重性；R值越大，说明该系统危险性小、风险小。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_150_5cyzpslcy",
+      "type": "judge",
+      "content": "风险是事故发生的可能性与严重性的结合。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_151_zlezw0xb9",
+      "type": "judge",
+      "content": "风险信息是风险点名称、危险源名称、类型、所在位置、当前状态以及伴随风险大小、等级、所需管控措施、责任单位、责任人等一系列信息的综合。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_152_lnuq6nlkp",
+      "type": "judge",
+      "content": "风险指特定危害性事件发生的可能性和后果的结合。人们常常将可能性L的大小和后果S的严重程度分别用表明相对差距的数值来表示，然后用两者的和反映风险程度R的大小，即R＝L+S。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_153_aechtw7jp",
+      "type": "judge",
+      "content": "危险说明指分配给一个危险种类和类别的短语，用来描述一种危险产品的危险性质，在情况合适时还包括其危险程度。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_154_e2pptlxe4",
+      "type": "judge",
+      "content": "危险源辨识和风险评价后，应编制风险分级管控清单，逐级汇总、评审、修订、审核、发布、培训、实现信息有效传递。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_155_vt4xfw7ce",
+      "type": "judge",
+      "content": "危险源辨识是对危险源导致的风险进行分析、评估、分级，对现有控制措施的充分性加以考虑，以及对风险是否可接受予以确定的过程。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_156_i2c2th6po",
+      "type": "judge",
+      "content": "违反法律、法规有关规定，整改时间长或可能造成较严重危害的隐患为重大事故隐患。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_157_fuu07ujad",
+      "type": "judge",
+      "content": "一般事故隐患是指危害和整改难度较小，发现后能够立即整改排除的隐患。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_158_40w1rw0ov",
+      "type": "judge",
+      "content": "一个风险点内存在多个危险源，危险源包含在风险点内。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_159_12578ohik",
+      "type": "judge",
+      "content": "风险按照从高到低的原则划分为重大风险、较大风险、一般风险和低风险四级，分别用“红橙黄蓝”四种颜色标示。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_160_k5v44rnfz",
+      "type": "judge",
+      "content": "风险控制措施评审时，只要能将风险降低可不考虑使风险降低的成本。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_161_ymiskq6ko",
+      "type": "judge",
+      "content": "风险无论大小，只要是不可接受风险就应该采取改进措施使其降低到可接受水平。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_162_0u0orza90",
+      "type": "judge",
+      "content": "风险分级的目的是实现对风险的有效管控。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_163_jzivuivsd",
+      "type": "judge",
+      "content": "风险分级管控就是指对风险的分级。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_164_hemm5bi2d",
+      "type": "judge",
+      "content": "风险分级管控应遵循风险越高管控层级越高的原则，下一级负责管控的风险，上一级必须同时负责管控。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_165_36g22ei9a",
+      "type": "judge",
+      "content": "风险管控的原则是上级负责管控的高风险，下级必须负责管控低风险，各负其责。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_166_7p5ulw38q",
+      "type": "judge",
+      "content": "风险管控的原则是上一级负责管控的风险，下一级必须同时负责管控，上一级可以提级管控下一级风险。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_167_5ey5d7qi2",
+      "type": "judge",
+      "content": "风险控制措施是指为将风险消除，企业针对风险而采取的相应控制方法和手段。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_168_30hkdtrm7",
+      "type": "judge",
+      "content": "企业风险分级管控体系应与企业现行安全管理体系紧密结合，形成一体化的安全管理体系，使风险分级管控贯彻于生产经营活动全过程。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_169_mbnpgrtsu",
+      "type": "judge",
+      "content": "企业隐患排查治理，是以风险管控措施为排查重点，是控制、降低风险的有效手段。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_170_2hx5k699n",
+      "type": "judge",
+      "content": "企业应根据风险分级管控的基本原则，结合本单位机构设置情况，合理确定各级风险的管控层级。风险管控层级不可合并。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_171_nx7uanafc",
+      "type": "judge",
+      "content": "全员参与风险分级管控体系建设是指企业从班组安全员到安全总监，应参与风险辨识、分析、评价和管控。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_172_8yz102kdu",
+      "type": "judge",
+      "content": "全员参与风险分级管控体系建设是指企业从基层操作人员到最高管理者，应参与风险辨识、分析、评价和管控。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_173_z3bfpmpy5",
+      "type": "judge",
+      "content": "不同级别的风险其所需管控资源、管控能力是一样的。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_174_9ujzypi0o",
+      "type": "judge",
+      "content": "安全生产管理人员必须具备的相应的安全生产知识和管理能力，其中包括熟悉现代化管理的方法。掌握相应的安全专业技术知识和管理知识。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_175_w313m1w6w",
+      "type": "judge",
+      "content": "企业分管负责人要全过程参与、组织、协调和推进双重预防体系建设工作；企业其他负责人和企业内设部门负责分管业务、车间建立双重预防体系的推进落实和跟进管理。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_176_wln376n3m",
+      "type": "judge",
+      "content": "生产、储存、使用、经营、运输危险化学品的单位的安全生产管理人员对本单位的危险化学品安全管理工作全面负责。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_177_gdlx53bm2",
+      "type": "judge",
+      "content": "生产经营单位主管安全工作的领导对本单位事故隐患排查治理工作全面负责。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_178_ataim3huk",
+      "type": "judge",
+      "content": "生产经营单位为保证安全资金的有效投入，应编制安全技术措施计划。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_179_qgkrwuu2p",
+      "type": "judge",
+      "content": "隐患排查的重点是风险分级管控措施的有效落实情况。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_180_f3wcycfjr",
+      "type": "judge",
+      "content": "隐患排查可分为生产现场类隐患排查或基础管理类隐患排查，两类隐患排查可同时进行。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_181_83uakv7fp",
+      "type": "judge",
+      "content": "企业应依据确定的各类风险的全部控制措施和基础安全管理要求，编制包含全部应该排查的项目清单。隐患排查项目清单包括生产现场类隐患排查清单和基础管理类隐患排查清单。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005900_182_lf5pkz8mv",
+      "type": "judge",
+      "content": "隐患排查是企业安全管理的核心，风险分级管控过程中确定的典型控制措施是隐患排查的重要内容。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_183_jupicezjg",
+      "type": "judge",
+      "content": "隐患排查是企业组织安全生产管理人员等相关人员依据国家法律法规、标准和企业管理制度，采取一定的方式和方法，对照法律法规、标准和企业管理制度的有效落实情况，对本单位的事故隐患进行排查的工作过程。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_184_rrpr2oyjb",
+      "type": "judge",
+      "content": "隐患排查组织部门应制发隐患整改通知书，应对隐患整改责任单位、措施建议、完成期限等提出要求。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_185_xlrmvqyw5",
+      "type": "judge",
+      "content": "隐患排查组织级别一般包括公司级、部门级、车间级、班组级，企业可以根据实际情况确定组织级别。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_186_5u2p2ovmy",
+      "type": "judge",
+      "content": "隐患整改责任单位应当对隐患整改效果组织验收。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_187_9wr86kbnm",
+      "type": "judge",
+      "content": "隐患治理完成后，应根据隐患级别组织安全管理人员对治理情况进行验收，实现闭环管理。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_188_ctrh0gwvc",
+      "type": "judge",
+      "content": "当化工企业外部安全生产环境发生重大变化时，企业应及时组织进行相关专业隐患排查。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_189_9ioodxypf",
+      "type": "judge",
+      "content": "在安全风险辨识、制定管控措施、排查治理隐患、信息技术应用等方面有困难的企业，可通过购买服务方式，委托相关专家和安全专业服务机构帮助实施。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_190_hcsay1sn2",
+      "type": "judge",
+      "content": "组织建立安全生产风险管控机制，督促、检查安全生产工作，及时消除生产安全事故隐患是企业主要负责人的主要职责之一。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_191_kg0ll7ebj",
+      "type": "judge",
+      "content": "对于隐患排查工作，企业应建立不同职能和层级间的内部沟通和用于与相关方的外部沟通机制，及时有效传递隐患信息，提高隐患排查治理的效果和效率。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_192_tmm7sl6tp",
+      "type": "judge",
+      "content": "风险分级管控的效果包括员工对所从事岗位的风险有更充分的认识，安全技能和应急处置能力进一步提高。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_193_tgi1bw1am",
+      "type": "judge",
+      "content": "风险分级管控体系建设取得的明显效果是员工对所从事岗位的风险有更充分的认识，安全技能和应急处置能力进一步提高。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_194_yh73hhuaa",
+      "type": "judge",
+      "content": "安全标准化采取企业自主管理，安全标准化考核机构考评、政府安全生产监督管理部门监督的管理模式。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_195_d2xd9fk0z",
+      "type": "judge",
+      "content": "根据化工企业生产安全事故隐患排查治理体系细则，化工企业的现场若存在：使用国家明令淘汰、禁止使用的严重危及生产安全的工艺、设备的，可按重大事故隐患进行治理。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_196_u467nwx0o",
+      "type": "judge",
+      "content": "构建风险分级管控与隐患排查治理体系双重预防机制，是企业落实安全生产主体责任的核心内容。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_197_1he3cf9qv",
+      "type": "judge",
+      "content": "化工企业进行隐患排查时，需编制生产现场类隐患排查清单，排查内容应包括工程技术、管理措施、培训教育、个体防护、应急处置等全部控制措施。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_198_hpsbea8r4",
+      "type": "judge",
+      "content": "化工企业进行隐患排查时，需编制生产现场类隐患排查清单，该清单至少应包括：与风险点对应的设备设施和作业活动、排查内容与排查标准等信息。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_199_0tabaqw5c",
+      "type": "judge",
+      "content": "化工企业进行隐患排查时，应根据自身组织架构确定不同的排查组织级别，一般包括车间级、班组级。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_200_zp3rktrnd",
+      "type": "judge",
+      "content": "化工企业进行隐患排查时，专业或专项隐患排查应由工艺、设备、电气、仪表等专业技术人员或相关部门至少每半年组织一次。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_201_d7czdllx3",
+      "type": "judge",
+      "content": "化工企业进行隐患排查时，专业性隐患排查一般包括工艺、设备、电气、自控仪表、建筑结构、消防、公用及辅助工程等。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_202_dr7pmbr8f",
+      "type": "judge",
+      "content": "化工企业在建立生产安全事故隐患排查治理体系时，若发现现场使用国家明令淘汰、禁止使用的严重危及生产安全的工艺、设备的，可按重大事故隐患进行治理。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_203_n6lyait85",
+      "type": "judge",
+      "content": "化工企业在建立生产安全事故隐患排查治理体系时，应从班组长及以上人员到最高管理层，参与隐患排查治理，使隐患排查治理贯穿于生产经营活动全过程，成为企业日常工作重要的组成部分。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_204_3m1mv356h",
+      "type": "judge",
+      "content": "化工企业在进行安全生产风险分级管控体系建设时，风险点排查应按生产（工作）流程的阶段、场所、装置、设施、作业活动等进行但是不可以将上述几种方法结合使用。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_205_fji4097rh",
+      "type": "judge",
+      "content": "化工企业在进行风险评价时，常用的方法为风险矩阵分析法（LS）、作业条件危险性分析法（LEC）等方法。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_206_2ksj477k9",
+      "type": "judge",
+      "content": "建立风险管控和隐患排查治理双重预防机制，是由以事故为重点向以风险为重点的转变。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_207_jyhzftu4l",
+      "type": "judge",
+      "content": "建设项目安全设施竣工或者试运行完成后，生产经营单位应当委托具有相应资质的安全评价机构对安全设施进行验收评价，并编制建设项目安全验收评价报告。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_208_z0avask7h",
+      "type": "judge",
+      "content": "建设项目职业病危害分类管理目录由国家安全生产监督管理总局制定并公布。省级安全生产监督管理部门可以根据本地区实际情况，对建设项目职业病危害分类管理目录作出补充规定。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_209_b3j0uk62e",
+      "type": "judge",
+      "content": "开展隐患排查治理是企业安全管理的重要组成部分，是对风险控制措施的持续有效进行排查确认、有效控制风险的重要方法。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_210_dceasisef",
+      "type": "judge",
+      "content": "安全生产监督管理部门确定选择一批在风险管控、隐患排查治理经验较丰富的行业标杆企业的目的是其他同类型的企业复制、照搬。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_211_2mtgef5qj",
+      "type": "judge",
+      "content": "企业双重预防体系建设必须与安全生产标准化、职业健康安全管理体系相互融合。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_212_kmgl1svjx",
+      "type": "judge",
+      "content": "企业应建立隐患排查治理目标责任考核机制，形成激励先进、约束落后的鲜明导向。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_213_t3xfg5fh6",
+      "type": "judge",
+      "content": "生产经营单位应当建立健全事故隐患排查治理制度。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_214_odkl5rg7p",
+      "type": "judge",
+      "content": "生产经营单位应当完善安全生产管理信息系统，对风险点和事故隐患进行实时监控并建立预报预警机制，利用信息技术加强安全生产能力建设。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_215_bh5m5srhi",
+      "type": "judge",
+      "content": "实施隐患排查前应在隐患排查项目清单中选择确定具有针对性的具体排查项目，形成如专业性隐患排查等各隐患排查表。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_216_xztji5037",
+      "type": "judge",
+      "content": "事故隐患排查类型主要包括日常隐患排查、综合性隐患排查、专业性隐患排查、专项或季节性隐患排查、专家诊断性检查和企业各级负责人履职检查等。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_217_tktnrthqp",
+      "type": "judge",
+      "content": "事故隐患治理流程包括：通报隐患信息、下发隐患整改通知、实施隐患治理、治理情况反馈、验收等环节。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_218_g18wn58ui",
+      "type": "judge",
+      "content": "双重预防体系建设标杆企业的安全生产风险分级经验，其他企业不可简单的复制。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_219_a894gv69n",
+      "type": "judge",
+      "content": "双重预防体系建设时企业要坚持安全生产与职业健康一体化的原则。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_220_d6q97f7xj",
+      "type": "judge",
+      "content": "双重预防体系建设是指安全生产风险管控体系与隐患排查治理体系，不包括职业卫生相关工作。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_221_v14rwh7ns",
+      "type": "judge",
+      "content": "双重预防体系建设是作为落实企业主体责任的一项重要法律制度，推动安全生产关口前移的重要举措。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_222_a1iezieja",
+      "type": "judge",
+      "content": "危化品企业开展安全生产标准化工作持续运行一年以上，方可申请安全生产标准化三级达标评审。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_223_qebh4sqwq",
+      "type": "judge",
+      "content": "参加应急预案评审人员与所评审预案的生产经营单位有利害关系的，可以参加。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_224_gb6x86tpv",
+      "type": "judge",
+      "content": "为了保证双重预防体系建设的有效性负有安全生产监管职责的部门应加强对体系建设及落实情况的执法检查。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_225_bodp048mj",
+      "type": "judge",
+      "content": "安全风险分级管控与事故隐患排查治理遵循quot;策划、实施、检查、改进quot;的quot;PDCAquot;动态循环模式。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_226_qp6nbajf8",
+      "type": "judge",
+      "content": "周围环境发生变化，形成新的重大危险源的应当及时修订应急预案。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_227_ke3wkewpf",
+      "type": "judge",
+      "content": "安全具有压倒一切的优先权。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_228_e25oxe2tm",
+      "type": "judge",
+      "content": "补偿导线，对于各种热偶是通用的。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_229_8tirhm6tb",
+      "type": "judge",
+      "content": "执行器按照调节形式分可分为调节型、切断型、调节切断型。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_230_ao20sxbrg",
+      "type": "judge",
+      "content": "干扰通道的放大系数尽可能大些，时间常数尽可能小些，干扰作用点尽量靠近调节阀，加大对象干扰通道的容量滞后，使干扰对被控变量的影响减小。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_231_g6f4qtzhc",
+      "type": "judge",
+      "content": "通常情况下对象中的干扰通道不是唯一的。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_232_wxl3638ng",
+      "type": "judge",
+      "content": "对纯滞后大的调节对象，为克服其影响，可以引入微分作用来克服",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_233_y8fzkxra1",
+      "type": "judge",
+      "content": "如果一个系统能够有效克服阶跃干扰，那么对于其它干扰也能有效克服。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_234_olryb3cqt",
+      "type": "judge",
+      "content": "扰动量作用在对象上，使被控变量偏离给定值，并且经过一段时间的振荡后趋于稳定，这种作用称为干扰作用。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_235_py3ve21d9",
+      "type": "judge",
+      "content": "串级控制系统可以应用在对象滞后和时间常数大、干扰作用强且频繁的场合。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_236_cb097h1li",
+      "type": "judge",
+      "content": "在选择副变量时，应该将主要的扰动和更多的扰动包含在副回路中。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_237_z3gsv26wd",
+      "type": "judge",
+      "content": "为保证副回路的快速响应性能，副对象的滞后不能太大。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_238_dz9ulydze",
+      "type": "judge",
+      "content": "自动控制系统的负反馈是指经过测量与变送环节的反馈信号的值小于零。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_239_1to842oh6",
+      "type": "judge",
+      "content": "自动控制系统中的静态是相对的，它是指控制器的输出变化率为零。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_240_mewuviln4",
+      "type": "judge",
+      "content": "微分控制规律的输出与输入偏差的大小和偏差变化的速度有关。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_241_d5tejvxvz",
+      "type": "judge",
+      "content": "偏差是测量值与给定值之间的差值，无论正负对控制器输出的影响是一样的。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_242_yieviiafn",
+      "type": "judge",
+      "content": "集散控制系统将控制功能下放到现场设备中，实现危险功能的分散。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_243_51w1kz0y3",
+      "type": "judge",
+      "content": "对每一台接入现场总线控制系统的设备，在投用前必须进行组态。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_244_ps9dqorml",
+      "type": "judge",
+      "content": "集散控制系统的基本特点是分散控制，集中管理。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_245_frpz8ehzk",
+      "type": "judge",
+      "content": "选择性控制系统是生产上的一种软保护措施。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_246_bnstcmz2t",
+      "type": "judge",
+      "content": "均匀控制系统中的控制器一般都采用纯比例作用，且比例度很大，必要时才引入少量的积分作用。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_247_lon98j3wa",
+      "type": "judge",
+      "content": "比例控制的刚性结构使它具有控制作用非常及时的特点。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_248_3be63fpcy",
+      "type": "judge",
+      "content": "当被控过程不稳定时，可以增大积分时间或加大比例度，使其稳定。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_249_n5sg7gb6b",
+      "type": "judge",
+      "content": "对于控制通道时间常数小，而负荷变化较大时，加微分作用和积分作用都易引起振荡，那么尽量不要加。如果控制通道时间常数很小，可采用反微分作用减缓，提高控制质量。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_250_v8w8dk7cf",
+      "type": "judge",
+      "content": "由于积分控制作用变化缓慢，容易使被控变量长时间偏离给定值，因此积分作用很少单独使用。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_251_kcuo7ouj3",
+      "type": "judge",
+      "content": "均匀控制系统的参数整定方法是将比例度和积分时间由大到小进行调整。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_252_xg0noazs1",
+      "type": "judge",
+      "content": "比例控制过程的余差与控制器的比例度成正比。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_253_ghrjqa46s",
+      "type": "judge",
+      "content": "在选择性控制系统中，取代控制器的比例度通常设置的比较大。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_254_9rxz7vvgf",
+      "type": "judge",
+      "content": "由于微分作用可以实现超前调节，因此绝大多数系统加上微分作用后都可以减小控制时间和最大偏差。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_255_uhz9buhzq",
+      "type": "judge",
+      "content": "串级控制系统中，副回路通常采用纯比例控制，可适当引入积分作用，通常不需要微分作用。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_256_eomi11c2i",
+      "type": "judge",
+      "content": "积分作用可以消除余差，因此在实际使用中，积分控制规律的过渡过程从被控变量偏离给定值开始到和给定值完全一致时结束。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_257_a6i9s6u0e",
+      "type": "judge",
+      "content": "均匀控制是通过将液位控制器调整在宽比例度和大的积分时间来实现的。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_258_f1lzqvlqa",
+      "type": "judge",
+      "content": "串级控制系统的目的是为了高精度地稳定主变量，对主变量要求较高，一般不允许有余差，所以主控制器一般选择PI控制规律;当对象滞后较大时，也可引入适当的D作用。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_259_n72qrcgvf",
+      "type": "judge",
+      "content": "串级控制系统投用过程中，当副回路自动工作稳定，主变量等于设定值时，可以将主控制器由手动无扰动地切向自动。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_260_hat3x2ahk",
+      "type": "judge",
+      "content": "在生产过程中利用自动控制系统使之按一定规律变化的变量属于被控变量。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_261_gwv34gv53",
+      "type": "judge",
+      "content": "串级控制系统由于副回路的存在，对于进入副回路干扰有超前控制作用，因而减少了干扰对副变量的影响。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_262_6s9low5m5",
+      "type": "judge",
+      "content": "在选择控制系统中两个控制器是同时工作的。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_263_9vqm06rso",
+      "type": "judge",
+      "content": "在串级控制系统中，系统通过主控制器的输出去控制调节阀。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_264_b2iccuo52",
+      "type": "judge",
+      "content": "串级控制系统中的副回路是一个随动控制系统。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_265_a2hv4shoi",
+      "type": "judge",
+      "content": "按照被控变量的类型将控制系统分为定值控制系统.随动控制系统和程序控制系统。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_266_5oomf26i4",
+      "type": "judge",
+      "content": "串级控制只用一个控制回路就可克服多个干扰;一种前馈作用只能克服一种干扰。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_267_4xjhdkofi",
+      "type": "judge",
+      "content": "在分程调节系统中，分程阀的控制范围是由输入信号大小决定的。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_268_tqjl7orjq",
+      "type": "judge",
+      "content": "在串级控制系统的投运过程中必须保证无扰动切换，通常采用先副回路后主回路的原则。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_269_mz2utw68s",
+      "type": "judge",
+      "content": "串级控制系统的主回路是由主对象、主测量变送器、执行器、主控制器组成。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_270_pvk1u878i",
+      "type": "judge",
+      "content": "选择控制系统又称为是超驰控制或取代控制。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_271_2e15d48ve",
+      "type": "judge",
+      "content": "在串级控制系统中有两个控制器、两个测量变送器、两个执行器，两个对象。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_272_p6yrk4ug6",
+      "type": "judge",
+      "content": "串级调节时，应该将主调节器设定为串级。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_273_c18g9i4dx",
+      "type": "judge",
+      "content": "均匀控制系统单从结构上看与简单控制是不同的。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_274_l8q4b5mlk",
+      "type": "judge",
+      "content": "串级控制系统对副变量的要求不严，在控制过程中，副变量是不断跟随主控制器的输出变化而变化的，所以副控制器一般采用比例控制规律;必要时可引入适当的积分作用。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_275_bv42uahle",
+      "type": "judge",
+      "content": "在自动控制系统中，规定调节器的输出信号随着测量值的增加而增加，为正作用，反之为反作用。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_276_j1bu0mtzl",
+      "type": "judge",
+      "content": "一个控制器来操纵几台控制阀，并且是按输出信号的不同区间操作不同的阀门，这种控制方式通常称为是分程控制。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_277_pmy0dg9wf",
+      "type": "judge",
+      "content": "串级控制系统中，由于主回路的快速作用，使系统具有较强的克服干扰能力。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_278_qd19jfhvw",
+      "type": "judge",
+      "content": "工艺上希望偏差越小越好，但如果没有偏差，自动控制系统就无法实现控制功能。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_279_udy47ydit",
+      "type": "judge",
+      "content": "为确保计算机控制系统的可靠运行，系统的操作和使用应分别设有不同的操作权限，以免误操作。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_280_b8fz7zhm2",
+      "type": "judge",
+      "content": "自动控制系统的过渡过程是指被控变量由于干扰的影响而偏离给定值，并通过控制作用趋于给定值的过程。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_281_14zgfm4jw",
+      "type": "judge",
+      "content": "分程控制回路中，一台控制器的输出可以同时控制两台甚至两台以上的控制阀，控制器的输出信号被分割成若干个信号范围段，由每一段信号去控制一台控制阀。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_282_c20w1gili",
+      "type": "judge",
+      "content": "均匀控制系统控制器的参数整定可以与定值控制系统的整定要求一样。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_283_1mf9gtlzp",
+      "type": "judge",
+      "content": "串级控制系统由于增加了副回路，因此具有一定的自适应能力，可用于负荷和操作条件有较大变化的场合。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_284_51d0ll844",
+      "type": "judge",
+      "content": "均匀控制系统的特点是使两个互相联系的变量能够缓慢地变化。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_285_ablm96gfx",
+      "type": "judge",
+      "content": "串级控制系统能够消除调节阀非线性特性的影响。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_286_xab7pkzoe",
+      "type": "judge",
+      "content": "变比值控制是相对与定比值控制而言的，设计比值不是恒定值的控制系统我们称之为变比值控制系统。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_287_9fuuk4dbm",
+      "type": "judge",
+      "content": "串级控制系统中主变量的选择和简单控制系统中被控变量的选择原则是一样的。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_288_ktu73uxk0",
+      "type": "judge",
+      "content": "自动控制系统中的操纵变量是指控制器的输出信号。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_289_c9sc9u8kc",
+      "type": "judge",
+      "content": "在自动控制系统中，被控变量的实际值与测量值之间的偏差可以通过控制作用加以克服。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_290_cqarmn7a7",
+      "type": "judge",
+      "content": "简单控制系统投运时调节阀投运有两种含义，一种是先人工操作旁路阀，然后过渡到调节阀，再手动到自动。另一种是直接操作调节阀的手动-自动。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_291_17mb5x1mt",
+      "type": "judge",
+      "content": "串级控制系统当对象具有较大的纯滞后而影响控制质量时;在选择副变量时应使副环尽量多包含纯滞后或不包含纯滞后。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_292_83beb5h3b",
+      "type": "judge",
+      "content": "串级控制系统由于引入一个闭和的副回路，不仅能迅速克服作用于副回路的干扰，而且对作用于副对象上的干扰也能加速克服过程。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_293_bgs61uhvt",
+      "type": "judge",
+      "content": "均匀控制系统与简单控制系统的区别在于控制的目的不同",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_294_llz9dsztz",
+      "type": "judge",
+      "content": "分程控制回路中，一台控制器的输出只能控制两台控制阀，控制器的输出信号被分割成若干个信号范围段，由每一段信号去控制一台控制阀。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_295_p5rivljgr",
+      "type": "judge",
+      "content": "自动化装置是指自动控制系统中的各类调节器或各种计算机控制系统。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_296_iasp44utj",
+      "type": "judge",
+      "content": "串级控制系统的主回路中，副回路这个环节的特性总是“反”作用方向。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_297_aozp910x8",
+      "type": "judge",
+      "content": "串级控制系统中，主回路是一个定值控制系统，而副回路是一个随动控制系统。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_298_oad8rjxv9",
+      "type": "judge",
+      "content": "串级控制系统的投运时，当主参数接近给定值，副参数也比较平稳后，调节主控制器的手操拨盘，使副控制器的偏差为零，将副调节器由手动切到自动，副调节器实行外给定的定值调节",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_299_188u984ve",
+      "type": "judge",
+      "content": "在自动控制系统中，控制器的输出值与操纵变量的值是一一对应的。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_300_yns3dp1h2",
+      "type": "judge",
+      "content": "串级控制系统对副回路的要求和简单控制回路一样，要实现无差控制",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_301_p3fffdj6f",
+      "type": "judge",
+      "content": "串级控制系统投运的最后一步是将副控制器切向自动。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_302_yybooc6l1",
+      "type": "judge",
+      "content": "没有反馈的控制系统无法实现自动控制，自动控制系统必须有反馈。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_303_rf1a312nq",
+      "type": "judge",
+      "content": "串级均匀控制系统的结构是串级，但控制目的是为了协调两个变量的关系。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_304_o0tlnc4qj",
+      "type": "judge",
+      "content": "串级控制系统的目的是高精度地稳定主变量，对副变量要求不高，一般允许有余差，所以副控制器一般选择P控制规律。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_305_vftyz40be",
+      "type": "judge",
+      "content": "在自动控制系统中，把能够引起被控变量产生变化的输入信号称为干扰。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_306_ik34ydabi",
+      "type": "judge",
+      "content": "串级控制系统从整体上看是定值控制系统，要求主变量有较高的控制精度;但从副回路来看是随动系统，要求副变量能准确、快速地跟随主控制器输出的变化而变化。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_307_0osl40adw",
+      "type": "judge",
+      "content": "均匀控制系统是为了解决前后工序的供求矛盾，使两个变量之间能够互相兼顾和协调操作的控制系统。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_308_dvnoqrs13",
+      "type": "judge",
+      "content": "自动控制系统包括测量元件与变送器、控制器、执行器三个组成部分。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_309_jalli4h88",
+      "type": "judge",
+      "content": "研究控制系统的动态比研究控制系统的静态更有意义的原因是动态过程更复杂。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_310_lue7dsxhg",
+      "type": "judge",
+      "content": "在串级控制系统中，主控制器的正反作用与主对象和调节阀的气开气关形式有关。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_311_hozlsipx8",
+      "type": "judge",
+      "content": "三通阀的气开气关选择必须通过采用正反作用执行机构来实现。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_312_x850u81ah",
+      "type": "judge",
+      "content": "执行机构采用正作用式，通过变换阀的正、反装实现气开和气关。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_313_dkmh0vgek",
+      "type": "judge",
+      "content": "调节阀的气开、气关与其正作用、反作用一致。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_314_z5kzfhchn",
+      "type": "judge",
+      "content": "在串级控制系统中，当把调节阀由气开改为气关或由气关改为气开时，需要同时修改主、副控制器的正反作用。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_315_q6ttl47fc",
+      "type": "judge",
+      "content": "双导向阀芯改变气开气闭需要更换执行机构。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_316_dfkxhitb9",
+      "type": "judge",
+      "content": "由于气动执行机构有正、反两种作用方式，而阀也有正装和反装两种方式，因此，实现气动调节阀的气开、气关就有四种组合方式。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_317_h7zcdb9fr",
+      "type": "judge",
+      "content": "气动继动器本质上是一种气动放大器。它与气动薄膜式或气动活塞式执行机构配套使用，用以提高执行机构的动作速度。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_318_gv2tuj70y",
+      "type": "judge",
+      "content": "执行机构是执行器的推动装置，它按控制信号压力的大小产生相应的推力，推动控制机构(调节机构)动作。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_319_udbh3szx3",
+      "type": "judge",
+      "content": "气动执行机构薄膜的有效面积越大，执行机构的位移和推力也越大。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_320_b1h17pt44",
+      "type": "judge",
+      "content": "气动活塞式执行机构可以充分用足工厂的气源压力来提高执行机构的输出力。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_321_msrf329sh",
+      "type": "judge",
+      "content": "气动侧装式执行机构也称增力型执行机构",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_322_s80d5q5pq",
+      "type": "judge",
+      "content": "控制机构是执行器的调节部分，它直接与被测介质接触，调节流体的流量。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_323_7rvr6nn7l",
+      "type": "judge",
+      "content": "调节阀由执行机构和阀体部件两部分组成。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_324_8efh821aj",
+      "type": "judge",
+      "content": "某技术人员将气动反作用执行机构订货时误订为正作用执行机构，则最简单的处理方法是重新配置阀门定位器机构组件。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_325_wxk5qw6ro",
+      "type": "judge",
+      "content": "气动薄膜调节阀主要由一个执行机构和阀体组成。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_326_4qi8tlqfc",
+      "type": "judge",
+      "content": "调节阀由执行机构和阀体部件及附件几部分组成。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_327_sw4cs2m6p",
+      "type": "judge",
+      "content": "多弹簧精小型执行机构当信号压力增加时，推杆向上动作的叫正作用执行机构，反之，当信号压力增加时，推杆向下动作的叫反作用执行机构。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_328_v2thg5862",
+      "type": "judge",
+      "content": "信号压力增加时推杆向下动作的叫正作用执行机构;信号压力增加时推杆向上动作的叫反作用执行机构。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_329_357homu87",
+      "type": "judge",
+      "content": "气开式调节阀随信号压力的增大而流通面积也增大;而气关式则相反，随信号压力的增大而流通面积减小。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_330_bbf7v1wwo",
+      "type": "judge",
+      "content": "当信号增加时调节阀的推杆向下动作。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_331_ikcgw4pz7",
+      "type": "judge",
+      "content": "双位控制规律的输出是一个等幅震荡的过程。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_332_d707fq98j",
+      "type": "judge",
+      "content": "执行机构无论是何种类型，它的输出力都是用于克服负荷的有效力。而负荷主要是指不平衡力和不平衡力矩加上摩擦力、密封力、重量等有关的作用力。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_333_ci31eh5bn",
+      "type": "judge",
+      "content": "比值系数在投运前应进行准确计算，运行中不能做调整，以保证流量比的准确。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_334_sulrwxa30",
+      "type": "judge",
+      "content": "工艺上规定的两物料流量之比即是比值乘法器的比值系数。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_335_9zomxbfzo",
+      "type": "judge",
+      "content": "比值控制系统的流量比是指主流量Q1与副流量Q2的流量比值。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_336_2egjp9hd7",
+      "type": "judge",
+      "content": "比值系统的控制目的是实现相关物料的比例关系。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_337_aa6fiw8re",
+      "type": "judge",
+      "content": "比值控制系统通常是保持两种或两种以上物料的流量为一定比例关系的系统，也称为是流量比值控制系统。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_338_g4zloj6ro",
+      "type": "judge",
+      "content": "比值控制系统确定主动量的原则是在生产过程中起主导作用、可测不可控、且较为昂贵的物料流量一般为主动量。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_339_w7vwm23kv",
+      "type": "judge",
+      "content": "微分作用通常不单独使用的原因是假如偏差固定，即使数值很大，微分作用也没有输出，因而不能消除偏差。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_340_spdckukt9",
+      "type": "judge",
+      "content": "由于比例控制有余差，因此不适于负荷变化频繁的场合。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_341_xlz47kf5t",
+      "type": "judge",
+      "content": "如果被控变量的控制质量要求不是特别高，完全可以不加积分。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_342_e20oigrcu",
+      "type": "judge",
+      "content": "有无开方器对比值控制系统仪表比值系数的计算没有影响",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_343_tuw2o1kkl",
+      "type": "judge",
+      "content": "在比例积分作用中，积分时间增加到非常大的情况下，可以把它看作纯比例作用。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_344_r5eel3u1n",
+      "type": "judge",
+      "content": "对于一般的PID控制，DCS控制站的扫描周期设定为1s即可满足要求。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_345_m43y02vmf",
+      "type": "judge",
+      "content": "DCS控制站的扫描周期在组态时应设定得越短越好。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_346_x07usmjtv",
+      "type": "judge",
+      "content": "PLC经过自诊断、与编程器等的通信、输入采样、用户程序执行、输出刷新这五个阶段的工作过程，称为一个扫描周期。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_347_kodt9kbl0",
+      "type": "judge",
+      "content": "可编程序控制器采用循环扫描工作方式，这种工作方式可以避免继电器接触控制的触点竞争和时序失配问题。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_348_a4358u95q",
+      "type": "judge",
+      "content": "PLC程序运行时读取的开关状态不是现场开关的即时状态，而是程序在执行I/O扫描时被送人映像存储器的状态。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_349_jvs9jx7ld",
+      "type": "judge",
+      "content": "在PLC的梯形图中，相同编号的输出继电器作为接点可重复引用。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_350_mogxjijl1",
+      "type": "judge",
+      "content": "梯形图中除使用跳转指令和步进指令的程序段外，一个编号的继电器线圈只能出现一次，而继电器的常开接点或常闭接点则不受限制。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_351_tycbu6mqn",
+      "type": "judge",
+      "content": "当PLC处于运行状态时，一开始就按照梯形图符号排列的先后顺序(从上到下、从右到左)逐一处理，也就是说PLC对梯形图是按扫描方式顺序执行程序，不存在几条并列支路同时工作的可能性。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_352_r6n4un3o6",
+      "type": "judge",
+      "content": "在PLC梯形图中，两个或两个以上的线圈可并联输出。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_353_7y0kpn0qv",
+      "type": "judge",
+      "content": "PLC系统配置、组态完毕后，每个输入、输出通道对应惟一的输入、输出地址。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_354_az37nmkrj",
+      "type": "judge",
+      "content": "在设计一套新的PLC系统时，根据被控对象的输入信号和输出信号的总点数，并考虑到今后调整和扩充，I/O点数一般应加上10%~15%的备用量。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_355_t1980vomc",
+      "type": "judge",
+      "content": "CENTUMCS3001系统中，回路的报警状态显示为MH，这意味着该回路的PV值过高，发生了高高报警。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_356_d9jalnf9o",
+      "type": "judge",
+      "content": "CENTUMCS3000系统中，回路的报警状态显示为HH，这意味着该回路的PV值过高，发生了高高报警。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_357_jle3ig2wu",
+      "type": "judge",
+      "content": "CENTUMCS3000系统中，对控制回路进行操作时，如果操作方式为串级(CAS)模式，则给定值(SV)允许改变。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_358_hkylqy96j",
+      "type": "judge",
+      "content": "CENTUMCS3000系统中，对控制回路进行操作时，如果操作方式为自动模式，则给定值(SV)允许改变。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_359_virdxgpjj",
+      "type": "judge",
+      "content": "CENTUMCS3000系统中的回路调整画面中，SVL是偏差报警设定值。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_360_fworaqtyk",
+      "type": "judge",
+      "content": "CENTUMCS3000系统中的回路调整画面中，VL是偏差报警设定值。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_361_az2tgz477",
+      "type": "judge",
+      "content": "CENTUMCS3000系统的现场控制单元FCU中，V网接口单元上的RCV亮时表示在接受V网来的数据，所以正常时该灯处于常亮。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_362_7r5cn93z2",
+      "type": "judge",
+      "content": "西门子S7-300PLC系统在导轨上的模块的安装顺序如下:(1)电源模块(PS);(2)CPU模块;(3)接口模块(IM可选择);(4)信号模块(SM);(5)(6)通讯处理器(CP);功能模块(FM)。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_363_xzi8c9mmi",
+      "type": "judge",
+      "content": "请判断下列SIMATICS7-300系列PLC中的模板的安装顺序是否正确。电源模板、CPU、扩展模板、信号模板、通讯模板、功能模板。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_364_2xa6uxy9n",
+      "type": "judge",
+      "content": "CENTUMCS3000系统中，I/O子系统可分为现场网络I/O(FIO)及远程I/O(RIO)。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_365_b31ofjspu",
+      "type": "judge",
+      "content": "CENTUMCS3000系统中，工程师站ENG是具有工程组态功能的PC机，通常不具有HIS功能，不能操作监视。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_366_9kh3cobpy",
+      "type": "judge",
+      "content": "CENTUMCS3000系统的现场控制单元FCU中，总线接口卡执行控制计算并监视CPU及供电单元。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_367_g77i6r6g2",
+      "type": "judge",
+      "content": "CENTUMCS3000系统中，人机接口站HIS控制着生产过程。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_368_x9zqpmdgr",
+      "type": "judge",
+      "content": "CENTUMCS3000系统中，若有一组DI卡为冗余配置，则其对应的接线端子排应冗余配置。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_369_jcajeoywk",
+      "type": "judge",
+      "content": "CENTUMCS3000系统中，KFCS中ESB总线的功能是用于连接FCU与本地节点以及本地节点之间相连。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_370_fy8rlqnrp",
+      "type": "judge",
+      "content": "在CENTUMCS3000系统的系统状态总貌窗口中，背景显示为白色的操作站表明该操作站是故障状态。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_371_zqi74kosf",
+      "type": "judge",
+      "content": "DCS开发的网络结构和OPC技术的应用，可以使DCS系统毫无困难地与工厂管理网络连接，实现信息共享，提高管理质量。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_372_k2jokgqm0",
+      "type": "judge",
+      "content": "DCS远程I/O单元的功能可将I/O控制单元放置在远离控制室的现场，数据通过通信传输的方式从远距离现场传至主控室。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_373_p5m6ilii4",
+      "type": "judge",
+      "content": "DCS的高速数据通路用于连接操作站、工程师站、管理计算机、控制站和过程接口单元等各个部分，完成数据、指令及其它信息的传递。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_374_pcvkhfrlr",
+      "type": "judge",
+      "content": "一些DCS用户程序的存储采用大容量的Flash内存，控制程序可在线修改，断电不丢失。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_375_7hn2kyok1",
+      "type": "judge",
+      "content": "DeltaV系统内置的设备管理系统(AMS)，可对与系统相连的智能设备和非智能的常规仪表设备进行远程诊断和维护。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_376_fsf7gu7dg",
+      "type": "judge",
+      "content": "国产SUPCONWebFieldECS—100控制系统具有HART信号处理卡件，可实现对符合HART协议的智能仪表的数据采集、组态和管理。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_377_pz3c8zu40",
+      "type": "judge",
+      "content": "不同厂商的智能变送器其传感元件、结构原理，通信协议是不同的。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_378_l57djr84y",
+      "type": "judge",
+      "content": "在各公司的智能阀门定位器中存在着不同的通协议，它们是HART协议，DE通信协议，FF-H1现场总线通讯协议及其它通讯协议。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_379_9769dfxzm",
+      "type": "judge",
+      "content": "现场总线是一条用于连接现场智能设备与自动化系统的全数字、双向、多点链接的通讯线路。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_380_bj1qlcroo",
+      "type": "judge",
+      "content": "接触器是一种适用于远距离频繁的接通和分断负荷主电路的控制电器。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_381_i2i1rpb1o",
+      "type": "judge",
+      "content": "手持通信器可以对组态、通讯、变送器或过程中出现的问题进行处理。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_382_wzuzkqjfl",
+      "type": "judge",
+      "content": "当接人的负荷超过PLC允许的限制值时，应采用外接继电器或接触器转换。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_383_48n5m45sx",
+      "type": "judge",
+      "content": "集散控制系统的发展进步是和计算机技术，通信技术、网络技术的发展密切相关的。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_384_a07ec9jsr",
+      "type": "judge",
+      "content": "设备制造商提供总线设备支持文件。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_385_xo7x2rrgy",
+      "type": "judge",
+      "content": "EJA智能变送器零点和量程的调整需由通讯器设置。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_386_zn4dn3tmy",
+      "type": "judge",
+      "content": "BT200通讯器在与EJA连接时、BT200的连接线应连在EJA电源的正、负连接线上。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_387_voldmmirc",
+      "type": "judge",
+      "content": "EJA传感器采用了两个谐振梁的差动结构、仪表受环境温度及静压的影响都十分微小。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_388_6gx93z411",
+      "type": "judge",
+      "content": "用于连接FFHI现场总线设备的屏蔽双绞线的最大传输距离为1900m。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_389_fqnzmymz5",
+      "type": "judge",
+      "content": "本质安全电路及其附件，应有蓝色标志。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_390_k3tlskdp4",
+      "type": "judge",
+      "content": "用国家统一规定的符号来表示电路连接情况的图称为电路图。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_391_bnzjnbtni",
+      "type": "judge",
+      "content": "接地线宜选用多股铜芯线，接地线的绝缘护套颜色应符合设计要求，如设计无规定，宜为黄绿相间或绿色。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_392_asesv4mic",
+      "type": "judge",
+      "content": "熔断器的主要元件是熔体。对于工作电流稳定的电路(如照明电路)，熔体的额定电流应略微小于负载的工作电流。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_393_iklr1doku",
+      "type": "judge",
+      "content": "三相四线制供电时，中线必须加装熔断器。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_394_qn7ismbii",
+      "type": "judge",
+      "content": "热继电器在异步电动机主回路的主要作用是做电动机的过载保护。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_395_l6ualrce5",
+      "type": "judge",
+      "content": "电源是将非电能转换成电能、并向负载提供各种能量(如光能、热能、机械能等等)的装置。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_396_qjqoyagpp",
+      "type": "judge",
+      "content": "有很多用电器是根据电流的热效应制成的，如电烙铁、电灯泡、电加热炉等。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_397_xwptxfq29",
+      "type": "judge",
+      "content": "物体带有静电，其周围形成电场，在放电时产生的电火花很容易引起爆炸。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_398_a8cktwqu0",
+      "type": "judge",
+      "content": "电气转换器是利用反馈的原理工作的。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_399_7kiig8xv2",
+      "type": "judge",
+      "content": "电磁流量计的转换器部分也需要很好接地，以免因为电位不同而引入干扰。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_400_oo9sz6kcx",
+      "type": "judge",
+      "content": "电磁流量计的转换器功能是将微弱的感应电势放大并转换成统一标准信号输出。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_401_ku5jxle2s",
+      "type": "judge",
+      "content": "电气转换器由正作用转换成反作用只需将信号反接即可。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_402_c3v2ecmfb",
+      "type": "judge",
+      "content": "电气阀门定位器只完成电信号到气信号的转换。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_403_eibo0wbqu",
+      "type": "judge",
+      "content": "验电笔只能检测交流电。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_404_oy2vukxbm",
+      "type": "judge",
+      "content": "PLC中的光电隔离电路仅用于开关量输入/输出卡件中。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_405_8mrbmn3i4",
+      "type": "judge",
+      "content": "电容式差压变送器的正反行程的输出值之差是余差。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_406_18tat568i",
+      "type": "judge",
+      "content": "几个电阻并联起来所得到的总电阻比任何一个分电阻的阻值都要大。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_407_yy037vgc6",
+      "type": "judge",
+      "content": "导体的电阻率是与材料性质有关的物理量。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_408_ur1ru6a12",
+      "type": "judge",
+      "content": "电动执行机构一般分为直行程、角行程、多转式三种。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_409_ez11yyocs",
+      "type": "judge",
+      "content": "角行程电动执行机构的输出轴输出角位移，转动角度小于360°，通常用来推动蝶阀、球阀、偏心旋转阀等转角式的调节机构，正常的角位移为90°转角",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_410_9i3bmwe1d",
+      "type": "judge",
+      "content": "电动执行机构是由电动机带动减速装置，在电信号的作用下产生直线运动和角度旋转运动。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_411_5d9cazkbz",
+      "type": "judge",
+      "content": "直行程电动执行机构的输出轴输出各种大小不同的直线位移",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_412_skirjzftk",
+      "type": "judge",
+      "content": "电子运动的方向为电流的正方向。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_413_4578h91r4",
+      "type": "judge",
+      "content": "电场中某一点和参考点之间的电压，就是该点的电位。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_414_5mlmqv1bt",
+      "type": "judge",
+      "content": "多个电阻串联时，通过每个电阻的电流都相等。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_415_u6k313l4d",
+      "type": "judge",
+      "content": "三通电磁阀按工作状态分为常开型和常闭型两种。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_416_dszssjz8g",
+      "type": "judge",
+      "content": "三相四线制供电线路中，端线与中线之间的电压叫做线电压。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_417_dzxysoa7z",
+      "type": "judge",
+      "content": "三相异步电动机主要由定子和转子两大部分组成。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_418_piyz871w3",
+      "type": "judge",
+      "content": "如果接到鼠笼式三相交流电动机的三相导线中的任意两相接线互换位置，则电动机将反转。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_419_za7lqllym",
+      "type": "judge",
+      "content": "继电器的常开触点是在继电器的线圈通电后处于断开状态的触点。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_420_1lctaijor",
+      "type": "judge",
+      "content": "在电路中，各点的电位与参考点的选择有关，而任意两点间的电压等于这两点间的电位差，因此电压也与参考点的选择有关。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_421_jphdda2tg",
+      "type": "judge",
+      "content": "在电路中，通常把参考点的电位规定为零电位。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_422_ni5i9rcst",
+      "type": "judge",
+      "content": "串联电路中，电路两端的总电压等于各电阻两端的分压之和。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_423_osfh7m4bl",
+      "type": "judge",
+      "content": "三相电源中，任意两根相线间的电压为线电压。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_424_ucx9iazvk",
+      "type": "judge",
+      "content": "当电路处于通路状态时，外电路电阻上的电压等于电源电动势。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_425_gd1cttypd",
+      "type": "judge",
+      "content": "一般情况下，高频电路应就近多点接地，低频电路应一点接地。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_426_24m64jt04",
+      "type": "judge",
+      "content": "热电偶或补偿导线断路时，电位差计的示值是不动的;而有“断偶”保护的仪表示值为仪表上限。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_427_sn6g1i6bf",
+      "type": "judge",
+      "content": "在电子电路或电器设备中，通常把金属壳体或电路的公共接点的电位规定为零电位。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_428_8vjd9viqy",
+      "type": "judge",
+      "content": "欧姆定律是用来说明电路中电压、电流、电阻，这三个基本物理量之间关系的定律，它指出:在一段电路中流过电阻的电流与电阻R两端电压成正比，而与这段电路的电阻成反比。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_429_iu6peuudh",
+      "type": "judge",
+      "content": "在实际电路中，凡是方向不随着时间变化的电流都称为直流电流。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_430_0px68n7uo",
+      "type": "judge",
+      "content": "继电器输出方式的PLC开关量输出单元，其负载回路的供电电源既可以采用交流，也可以采用直流。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_431_9wa757a3f",
+      "type": "judge",
+      "content": "电路中产生电能的设备是电容。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_432_8mltiqc2m",
+      "type": "judge",
+      "content": "要进行专门设计和独立制造，在使用时必须进行单独标定的节流装置，叫做非标准节流装置或特殊节流装置。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_433_nssq64bgw",
+      "type": "judge",
+      "content": "要进行专门设计和独立制造，在使用时不必进行单独标定的节流装置，叫做非标准节流装置或特殊节流装置。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_434_tul0edt41",
+      "type": "judge",
+      "content": "电磁流量传感器的直管段要求比大部分其他流量计的直管段要求低。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_435_3gnraqz2y",
+      "type": "judge",
+      "content": "椭圆齿轮流量计安装比较方便，安装时应在入口端加装过滤器，防止固体杂质或异物进入流量计。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_436_cxncrq0l1",
+      "type": "judge",
+      "content": "电磁流量计的传感器必须插入管道，转换器需要安装在传感器上或者采用壁挂式安装。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_437_hflbm3d3l",
+      "type": "judge",
+      "content": "使用热电偶温度计，布线时应尽量避免动力线和磁场等造成的干扰。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_438_ekz8tza2s",
+      "type": "judge",
+      "content": "消除电磁流量计的正交干扰的方法之一是:合理布置电极引线，使电极引线所形成的平面保持与磁力线平行，避免磁力线穿过此闭合回路，并设有机械调整装置。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_439_od5kp7tfp",
+      "type": "judge",
+      "content": "目前使用的安全栅主要有电阻式、齐纳式、中继放大式和隔离式4种。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_440_h21jwkhpf",
+      "type": "judge",
+      "content": "由于本安防爆技术是一种“弱电”技术，因此，本安仪表的使用可以避免现场工程技术人员的触电伤亡事故的发生。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_441_vuzw1gouq",
+      "type": "judge",
+      "content": "熔断器是作为安全保护用的一种电器，当电动机发生短路时，能自动切断电路。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_442_dr06cw4st",
+      "type": "judge",
+      "content": "齐纳式安全栅由限制输出电压的电阻、限制输出电流的齐纳二极管和快速熔断器组成。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_443_s97vcu23q",
+      "type": "judge",
+      "content": "电磁阀均为防爆型的。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_444_zu1j5s3zh",
+      "type": "judge",
+      "content": "漏电保护自动开关一般由自动开关和漏电继电器组合而成。除能起一般自动开关作用外，还能在线路或设备出现漏电或人身触电时迅速自动断开电路。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_445_m8h70fv2r",
+      "type": "judge",
+      "content": "本质安全防爆技术的特点之一可在带电情况下进行维护、标定和更换仪表的部分零件等。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_446_g4l8vnv65",
+      "type": "judge",
+      "content": "电气设备的保护接零和保护接地是为防止人身触及绝缘损坏设备引起触电的技术措施。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_447_5s4ldp39g",
+      "type": "judge",
+      "content": "联锁系统用的电磁阀往往在常通电状态下工作，这是从确保安全可靠的角度考虑的。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_448_wwqvc90wo",
+      "type": "judge",
+      "content": "从安全可靠的角度考虑，联锁系统的电磁阀应在常带电状态下工作。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_449_vuweno0et",
+      "type": "judge",
+      "content": "电磁阀可分为普通型、防水型、防爆型等几种。按其动作方式可分为直动式和先导式两种。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_450_111sywmio",
+      "type": "judge",
+      "content": "本质安全线路和非本质安全线路可共用一根电缆，合穿一根保护管。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_451_whg3tefmr",
+      "type": "judge",
+      "content": "现场总线只支持屏蔽双绞线作为其传输介质。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_452_2a724wic2",
+      "type": "judge",
+      "content": "电缆的屏蔽层应作屏蔽接地，屏蔽接地可与工作接地共用接地干线与接地极。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_453_4380s6ema",
+      "type": "judge",
+      "content": "对用公共输出端的可编程序控制器，不同输出电压等级的公共端可连接在一起。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_454_glowk4vz7",
+      "type": "judge",
+      "content": "挂在现场级网络上设备可以由网络供电(总线供电)，也可单独供电。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_455_8dobfi0wz",
+      "type": "judge",
+      "content": "智能阀门定位器需要单独供电。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_456_wvk6rthz1",
+      "type": "judge",
+      "content": "控制通道的特性与自动化装置有关而不受对象特性的影响。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_457_2phugo8rq",
+      "type": "judge",
+      "content": "被控对象可以是一个完整的设备，也可以是一个设备的某一部分。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_458_cgw3a82p8",
+      "type": "judge",
+      "content": "在自动控制系统的方块图中，可以认为比较机构是其中的一个“环节”。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_459_er1bgigg9",
+      "type": "judge",
+      "content": "如果工艺生产要求的控制功能发生变化，一般来说，无需改变PLC的硬件设备，通过程序的编制与更改就能适应生产的需要。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_460_2j3kl6vfn",
+      "type": "judge",
+      "content": "可编程序控制器是专为工业现场设计的，所以可以在任何恶劣的环境下工作。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_461_jhou2j1ao",
+      "type": "judge",
+      "content": "执行器除了能够控制压力、温度、流量外，还能够在装置的安全方面起着重要作用。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_462_o8z2akwdd",
+      "type": "judge",
+      "content": "如主控制器和热备控制器中的程序不同，会影响冗余功能。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_463_cy0n35dwz",
+      "type": "judge",
+      "content": "变送器将电容室移到了电子罩的颈部、远离过程法兰和被测介质。仪表的温度性能和抗干扰性能得到提高。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_464_hub56yu1y",
+      "type": "judge",
+      "content": "电子式电动执行机构性能价格比优越，这也是它大量使用的又一主要因素。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_465_egakzcbaw",
+      "type": "judge",
+      "content": "电子式电动执行机构的伺服放大器一体化，其伺服放大器小到如烟盒大小，它不仅尺寸小，而且调整方便，功能齐全。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_466_7ncwqhcrh",
+      "type": "judge",
+      "content": "电子式电动执行机构调整方便，手动操作简单方便，调整方便、接线方便、伺服放大器一体化，不需考虑伺服放大器的另外安装。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_467_3n9uccyv9",
+      "type": "judge",
+      "content": "电子式电动执行机构的特点是可靠性高，执行机构可以在5~10年内免维修。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_468_edckvr1jx",
+      "type": "judge",
+      "content": "电子式电动执行机构多功能，具有自诊断系统、状态切换、信号任意切换、行程任意选定、带过载保护、带过热保护、带阀位反馈等，这些都是老式电动执行机构无法相比的。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_469_u93yijf43",
+      "type": "judge",
+      "content": "电子式电动执行机构外观美观，这种电子式这些机构通常是两种形状，一种圆柱形，另一种是长方形，它们与阀匹配，使整个阀十分匀称。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_470_d8f6savht",
+      "type": "judge",
+      "content": "可编程序控制器的系统程序在断电后需由后备电池保存。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_471_eed6hwqqw",
+      "type": "judge",
+      "content": "PLC存储器中的程序，断电后必须用电池保存。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_472_qj5z3hp7v",
+      "type": "judge",
+      "content": "为确保计算机控制系统的可靠运行，系统的供电一般采用可自动切换的双回路供电，并配有UPS在停电期间短时供电。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_473_8zo0oxkal",
+      "type": "judge",
+      "content": "计算机控制系统(如DCS、ESD)中用于人机对话的操作站发生故障后，如重新启动，会中断控制站程序的运行。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_474_jhanwu9kx",
+      "type": "judge",
+      "content": "传统的继电器控制系统是按并行方式工作的，PLC是按串行方式逐条执行程序的。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_475_6dvnjfln8",
+      "type": "judge",
+      "content": "超声波液位计安装时，探头与容器壁距离不能太近。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_476_m7cnha5j7",
+      "type": "judge",
+      "content": "超声波物位计无可动部件，超声探头虽然有振动，但振幅很小，仪表结构简单。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_477_l9r3cq0er",
+      "type": "judge",
+      "content": "超声波液位计安装要求探头垂直，不能倾斜，如果倾斜，则回波偏离法线致使仪表无法工作。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_478_y7m3ha8fd",
+      "type": "judge",
+      "content": "超声波物位计由于探头不能承受过高温度，所以不能对高温介质进行物位测量。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_479_1lat8sx1e",
+      "type": "judge",
+      "content": "放射性液位计安装地点从工艺和仪表要求考虑，并设置有关标志。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_480_4goygy98l",
+      "type": "judge",
+      "content": "放射性液位计由施工单位安装、调试。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_481_s1ejftq9l",
+      "type": "judge",
+      "content": "放射性液位计安装时，应先安装有关机械部件和探测器，并初步调校正常，然后再安装射源，安装时应将射源容器关闭，使用时打开。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_482_y6mzhrhzp",
+      "type": "judge",
+      "content": "雷达液位计的测量范围按照型号划分一般情况下在0-20~0-35米之间。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_483_o54s5spi1",
+      "type": "judge",
+      "content": "超声波流量计使用的频率:测量液体的频率通常在300KHz~500KHz。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_484_rkvs1papj",
+      "type": "judge",
+      "content": "超声波流量计使用的频率:测量气体的频率通常在100KHz~300KHz。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_485_zfxte49hg",
+      "type": "judge",
+      "content": "在使用雷达液位计时，由于是微波传送，也要空气介质。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_486_5nge0bl0y",
+      "type": "judge",
+      "content": "根据雷达液位计的工作情况，雷达计是可以工作在真空和受压情况下的。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_487_vvoe8hd2g",
+      "type": "judge",
+      "content": "我们所使用的雷达液位计在送电以后马上就可以工作。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_488_1ldp0xq99",
+      "type": "judge",
+      "content": "安装雷达液位计时应避开进料口、进料帘和旋涡。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_489_tnydb0eym",
+      "type": "judge",
+      "content": "对于有搅拌器的容器，雷达液位计的安装位置不要在搅拌器附近，因为搅拌时会产生不规则的旋涡，它会造成雷达信号的衰减。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_490_4yc5vkzz3",
+      "type": "judge",
+      "content": "某气动调节阀，当推杆带动阀杆移动到全行程的50%时，则流量也是最大流量的50%。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_491_mxhvpsqai",
+      "type": "judge",
+      "content": "分程控制中，必须在50%处进行分程。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_492_vfj19g6em",
+      "type": "judge",
+      "content": "选用最合适的填料长度:从一般的经验来说，都认为填料的长度S最佳为阀杆直径的1.5倍，S=1.5d1。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_493_mia8zl11b",
+      "type": "judge",
+      "content": "标准孔板上游侧端面上，连接任意两点间的直线与垂直于中心线平面之间的斜率应小于3%。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_494_b8q38h7kx",
+      "type": "judge",
+      "content": "在旋转机器房作业的人员必须穿齐、穿好有关的工作服，戴好工作帽。不许有敞怀、无扣、扎腰绳等现象发生。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_495_m9hc8jk9o",
+      "type": "judge",
+      "content": "一般情况下，搅拌轴依靠减速箱内的一对轴承支撑，要求较高时，可考虑安装中间轴承或底轴承。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_496_lhw8okly2",
+      "type": "judge",
+      "content": "波纹管密封控制阀的波纹管材料有黄铜、铍青铜、不锈钢。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_497_za4bd8a6r",
+      "type": "judge",
+      "content": "波纹管式弹性元件是一种周围为波纹状的薄壁金属筒体，常用于中压的测量。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_498_qzn5g99nm",
+      "type": "judge",
+      "content": "电气设备的金属外壳、金属构架、金属配线管及其配件、电缆保护管、电缆的金属护套等非带电的裸露金属部分均应接地。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_499_zpzv4fude",
+      "type": "judge",
+      "content": "膜片式弹性元件是由金属或非金属材料做成的具有弹性的一张膜片。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_500_lpibiwwda",
+      "type": "judge",
+      "content": "在玻璃板液位计的上下阀内往往装有钢球，是没有什么用途的。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_501_9o77edsr8",
+      "type": "judge",
+      "content": "转子流量计的转子是用不锈钢、铜、铝合金、有机玻璃、聚四氟乙烯、塑料等材质制作的;根据被测介质的物理化学性质和量程大小来选择不同材料及不同形状的转子。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_502_fre5b6ssb",
+      "type": "judge",
+      "content": "调节阀填料选择的材料必须具有抵抗温度变化的能力，有抗蠕变、抗松弛及抗氧化等能力。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_503_k6pz0kfe7",
+      "type": "judge",
+      "content": "由于铠装热电阻的绝缘材料和保护套管连成一体，所以具有可弯曲、热惯性好的特性。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_504_dl9tiar0i",
+      "type": "judge",
+      "content": "密封部位的结合面相对精致的密封称为动密封。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_505_1uk5o37c0",
+      "type": "judge",
+      "content": "角形调节阀具有自清洁的功能，因此适用于粘稠带颗粒的介质。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_506_m3ss8b6ty",
+      "type": "judge",
+      "content": "波纹管密封型上阀盖适用于有毒性、易挥发或贵重的流体，可避免介质外漏损耗，以及有毒易爆介质外漏而发生危险。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_507_weutx3w3k",
+      "type": "judge",
+      "content": "装运易燃易爆危险物，尤其是罐体，必须配备导静电橡胶拖地带。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_508_axtbhq1v4",
+      "type": "judge",
+      "content": "波纹管密封型是4种上阀盖形式之一，适用于有毒性、易挥发和贵重流体的场合。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_509_rwxjf7i0u",
+      "type": "judge",
+      "content": "稀硝酸、醋酸及其它一般腐蚀性介质，应选用耐酸压力表或不锈钢膜片压力表",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_510_aqg7n2qeg",
+      "type": "judge",
+      "content": "当被测压力P小于20MPa时，压力表的弹簧管材质应采用磷(青)铜材料。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_511_3zhcg5ywk",
+      "type": "judge",
+      "content": "当被测介质的化学性质具有腐蚀性，如氨气时，压力表的弹簧管材质应采用不锈钢或者合金钢材料。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_512_v8nnzfcny",
+      "type": "judge",
+      "content": "压力表类型的选择依据之一是被测介质性质即物理性质和化学性质。被测介质的温度高低、黏度大小、脏污程度、腐蚀性、结晶物、可燃性、可爆性、氧化-还原性质或者特殊介质。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_513_bb526nu73",
+      "type": "judge",
+      "content": "压阻式压力传感器是利用单晶硅的压阻效应而构成，采用单晶硅片为弹性元件。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_514_ngq972pyo",
+      "type": "judge",
+      "content": "石墨填料在使用时比四氟乙烯填料回差大。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_515_0b86024y6",
+      "type": "judge",
+      "content": "灰色滤毒罐用于防护芳烃类有毒气体。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_516_g78vbe4cp",
+      "type": "judge",
+      "content": "过滤操作时，通过过滤介质流出的液体称为滤渣。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_517_uwhch9p1i",
+      "type": "judge",
+      "content": "空气过滤减压器是最典型的附件，它用于净化来自空气压缩机的气源，并能把压力调整到所需的压力值，具有自动稳压的功能。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_518_sf9w867hg",
+      "type": "judge",
+      "content": "在物料较脏的系统中，使用的液面计应定期进行清洗。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_519_6hbwprsi0",
+      "type": "judge",
+      "content": "机泵清理卫生时，转动的部件应小心擦拭。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_520_lwr0fsmcl",
+      "type": "judge",
+      "content": "工业废水一般是送到污水处理厂处理。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_521_hjzkjvdpk",
+      "type": "judge",
+      "content": "清洁生产通过末端治理污染来实现。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_522_a4p4mjknl",
+      "type": "judge",
+      "content": "液体的黏度随温度升高而降低，气体的黏度则反之。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_523_ejg37alxk",
+      "type": "judge",
+      "content": "要降低液体的蒸发量，采用降低液体的温度，增大液体的表面积和减少液体表面上的空气流动。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_524_zgjrqea63",
+      "type": "judge",
+      "content": "对流干燥是一个传热和传质相结合的过程。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_525_qbcr7793r",
+      "type": "judge",
+      "content": "气体通过填料间歇流动时，气液流的湍动性对传质过程是不利的。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_526_znbglwpv1",
+      "type": "judge",
+      "content": "化工装置内的常温设备管道同样需要保温。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_527_ascjguz7f",
+      "type": "judge",
+      "content": "泵体的温度太高，将会导致输送介质在泵体内发生汽蚀现象。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_528_fb3643fhh",
+      "type": "judge",
+      "content": "蒸馏是利用互溶液体混合物中各组分溶解度不同而分离成较纯组分的一种操作。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_529_a29bt013a",
+      "type": "judge",
+      "content": "凡是有氧气作为介质的管道、调节阀、仪表设备都必须做脱脂处理。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_530_szsaplfja",
+      "type": "judge",
+      "content": "脱脂应在室外通凤处或有通风装置的室内进行，工作中应采取穿戴防护用品等安全措施。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_531_lpyf8135v",
+      "type": "judge",
+      "content": "离心泵巡检时，应检查油位、油压、密封水冷却水投用以及泵电流、声音、振动等情况。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_532_4scttwgpa",
+      "type": "judge",
+      "content": "离心泵运行时，如果叶轮损坏或失去平衡可能会造成轴承温度降低。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_533_41tzhvvne",
+      "type": "judge",
+      "content": "降低输送液体中轻组分的含量，对减少离心泵的气缚现象，效果非常明显。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_534_gmg3824s1",
+      "type": "judge",
+      "content": "离心泵出现气缚现象时，可通过关小出口阀的方式来解决。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_535_o35n3k6xz",
+      "type": "judge",
+      "content": "降低离心泵的流量能缓解气蚀的发生。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_536_ugb7ii8y3",
+      "type": "judge",
+      "content": "关小运行离心泵的出口阀，对减少泵的汽蚀现象有一定的效果。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_537_7rn17lwxr",
+      "type": "judge",
+      "content": "往复泵、齿轮泵、螺杆泵、离心泵都是容积泵。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_538_y2z7by044",
+      "type": "judge",
+      "content": "离心泵的油过滤网堵塞，会造成轴承温度下降。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_539_vxrmh70tl",
+      "type": "judge",
+      "content": "气动薄膜执行机构其薄膜的有效面积越大，推力越小。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_540_8w45yi9fm",
+      "type": "judge",
+      "content": "精小型气动薄膜执行机构与传统的气动薄膜执行机构相比，高度减少30%，重量也减轻30%，流通能力却增加30%，可调范围扩大到50∶1。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_541_fgcr6edkj",
+      "type": "judge",
+      "content": "精小型气动薄膜执行机构，主要是针对老式薄膜执行机构笨重和可靠性差的问题而设计的。在减少重量和高度方面，它将老结构的单弹簧改为多弹簧，并将弹簧直接置于上下膜盖内。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_542_b44qb1k3p",
+      "type": "judge",
+      "content": "气动喷嘴挡板放大机构的优点是:尺寸小，结构简单，紧凑，没有运动的摩擦零件，工作可靠，牢固耐用，成本低廉;缺点是容易被空气中的夹杂物堵塞。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_543_wyf6dsaal",
+      "type": "judge",
+      "content": "精小型气动薄膜执行机构具有可靠性高、外型小、重量轻的特点",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_544_ft6ey7w4a",
+      "type": "judge",
+      "content": "气动薄膜执行机构结构简单，动作可靠，维修方便，价格低廉，是一种应用最广的执行机构。它分为正、反作用两种形式，单弹簧执行机构型号为ZMA、ZMB。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_545_f2nflh4y5",
+      "type": "judge",
+      "content": "液体由旋转叶轮中心向外缘运动时，在叶轮中心形成了低压(真空)区。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_546_0j8qjonyn",
+      "type": "judge",
+      "content": "大气压是压力的法定国际单位。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_547_l3p4gylu0",
+      "type": "judge",
+      "content": "一个标准大气压相当于0℃时735mm高水银柱底部的压力。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_548_3fs9g8af7",
+      "type": "judge",
+      "content": "压力表用于测量蒸汽压力时，为了防止高温蒸汽与检测压力零件接触，不能采用增加凝液管的措施。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_549_qdqzinjl1",
+      "type": "judge",
+      "content": "测量氧气时，压力表严禁沾有油脂，以免着火，甚至爆炸。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_550_z7g4qgi7p",
+      "type": "judge",
+      "content": "当测量脉动压力时，正常操作压力最高不得超过测量上限的1/2。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_551_7eynbglkq",
+      "type": "judge",
+      "content": "在被测压力波动较大情况下，正常操作压力值应不超过压力表满量程的2/3;最高不得超过满量程的3/4。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_552_drowawzt2",
+      "type": "judge",
+      "content": "在被测压力较稳定情况下，正常操作压力值应不超过压力表满量程的2/3;最高不得超过满量程的3/4。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_553_9ejtor2fm",
+      "type": "judge",
+      "content": "在选用调节阀时，只要工作压力低于公称压力即可。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_554_dhuu35t53",
+      "type": "judge",
+      "content": "差压变送器由两部分组成、下半部分为测量部件、上半部分为转换部分。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_555_3cot81ixv",
+      "type": "judge",
+      "content": "根据差压变送器的测量范围决定差压变送器是否有迁移。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_556_v2j5b0ph4",
+      "type": "judge",
+      "content": "差压变送器改变测量膜片的厚度、就可以改变仪表的测量范围。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_557_qcpg1f21j",
+      "type": "judge",
+      "content": "压变送器的迁移相当于测量范围的平移。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_558_x0ay366za",
+      "type": "judge",
+      "content": "分程控制回路中，分程阀的两段风压范围一定均分为0.02~0.06MPa和0.06~0.10MPa。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_559_445y8jiby",
+      "type": "judge",
+      "content": "导压管应根据不同介质测量要求分别按l∶10~1∶100的坡度敷设。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_560_eay1fajyu",
+      "type": "judge",
+      "content": "测量蒸汽流量时，节流装置的取压口方位在管道横截面的水平中心线上半部的90amp;deg;左右的45amp;deg;夹角范围内。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_561_7tor7nufv",
+      "type": "judge",
+      "content": "有A、B两块压力表，A表校验刻度500KPa点，B表校验刻度800KPa点，得到它们的绝对误差都是5KPa，于是可以说两块压力表的测量准确程度相等。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_562_f75x95q1n",
+      "type": "judge",
+      "content": "某压缩机出口压力为450KPa，实际操作时最大允许有±12.6KPa的测量误差，那么选用压力表的量程和精度等级各是675KPa;1.5级。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_563_bctu0737k",
+      "type": "judge",
+      "content": "某蒸汽换热器正常工作时，操作压力控制在800KPa，实际操作时最大允许有±15KPa的测量误差，那么选用压力表的量程和精度等级各是1.2MPa;1.0级。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_564_i97p7rsmc",
+      "type": "judge",
+      "content": "现有一块量程为0~200KPa的压力表，在100KPa处计量检测值为99KPa，此处测量误差为最大，则仪表的最大相对百分误差为0.5%。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_565_covr59ht8",
+      "type": "judge",
+      "content": "利用孔板测量流量的DDZ-Ⅲ型差压变送器，已知:最大流量为:Mmax=125t/h，最大差压为:ΔPmax=63KPa。若测出来某时刻瞬时流量为M=100t/h时，所对应的差压值为40.3KPa。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_566_emv7vl1fb",
+      "type": "judge",
+      "content": "压力表用于测量有腐蚀性的介质时，应加装中性的隔离装置。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_567_4zj6ubebu",
+      "type": "judge",
+      "content": "压力表的装设位置应便于操作人员观察和清洗。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_568_v171yei2v",
+      "type": "judge",
+      "content": "压力检测仪表的选用内容主要包括:仪表类型的选择、仪表量程范围的选择和仪表附加装置的选择。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_569_1janmam8g",
+      "type": "judge",
+      "content": "压力校验仪主要用于检定和调校各类差压变送器、低压压力变送器、调节器和记录仪等仪表的标准输入信号。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_570_n54ui855t",
+      "type": "judge",
+      "content": "用于测量燃料油的压力表，应设置隔离介质的缓冲装置或使用膜片式压力表。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_571_bz3ryd7ds",
+      "type": "judge",
+      "content": "数字式万用表可测量交流电压、电流，直流电压、电流和电阻、电容、三极管，还可测量功率。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_572_5eyw5romx",
+      "type": "judge",
+      "content": "标准mA表可用于检定仪表输入、输出的电流信号。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_573_3lu12celx",
+      "type": "judge",
+      "content": "指针式万用表可测量交流电压、电流，直流电压、电流和电阻等。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_574_7avzojlp5",
+      "type": "judge",
+      "content": "电容式物位计由电容物位传感器和检测电容的电路所组成。它适用于各种导电、非导电液体的液位或粉末状料位的测量。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_575_1c7jp3snr",
+      "type": "judge",
+      "content": "电感式压力表的电感传感器有结构简单的螺旋式和结构复杂的变压器式两种。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_576_sp6d6ly9h",
+      "type": "judge",
+      "content": "电远传式压力表的特点是反应迅速、测量范围广、精确度高、易实现远距离传送。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_577_1t5fa4xfi",
+      "type": "judge",
+      "content": "差压变送器的主要功能是对多种介质的流量、温度、液位、压力、界面等进行测量、转换成统一的标准信号输出。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_578_9mbyjp8g6",
+      "type": "judge",
+      "content": "电容式压力变送器是把被测压力转换成电容量的变化，然后电容经过测量变送，输出与被测压力相对应的电流信号。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_579_fimnless6",
+      "type": "judge",
+      "content": "电容式压力变送器是由电容器和转换放大电路两部分组成。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_580_fkfhnewbw",
+      "type": "judge",
+      "content": "电接点压力表是一种既可以指示压力，又可在压力超出上下限规定范围时发出报警信号的压力表。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_581_crh1p1y3v",
+      "type": "judge",
+      "content": "涡街流量计的漩涡频率f信号的检测方法很多，有热学法检测、有差压法检测。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_582_yokwmz0hb",
+      "type": "judge",
+      "content": "调节阀的性能测试中有一项为额定行程偏差，其目的为测试气关阀在100%行程时阀芯是否关闭到位。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_583_s7zy6xty5",
+      "type": "judge",
+      "content": "用浮子界面计可以测量两种不同的密度有变化的界面。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_584_g6wk3wa6c",
+      "type": "judge",
+      "content": "椭圆齿轮流量计的测量部分是由两个相互连接的椭圆形齿轮、轴和壳体构成。齿轮与壳体之间形成测量室。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_585_botkb3cff",
+      "type": "judge",
+      "content": "定位器利用闭环原理将输出量阀位反馈回来与输入量比较，即阀位信号直接与输入信号比较。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_586_tprsi81eo",
+      "type": "judge",
+      "content": "转子流量计指示值修正的原因，因为转子流量计是一种非标准化仪表，须按不同的被测介质进行刻度。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_587_ga51rnnr8",
+      "type": "judge",
+      "content": "转子流量计在实际使用时，由于实际被测介质与标定介质不同，使得转子流量计的指示值产生误差，所以必须根据具体情况进行修正。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_588_z6snkywfr",
+      "type": "judge",
+      "content": "通过转子流量计有关参数计算，可以看到:当转子流量计锥管的锥度增大，其余条件都不变时，则仪表换算后量程增大。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_589_wwwtaoqel",
+      "type": "judge",
+      "content": "转子流量计是以压降不变，利用节流面积的变化反映流量的大小。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_590_hnuhbjttr",
+      "type": "judge",
+      "content": "流量计按测量方式一般可分为:速度式流量计、容积式流量计、质量流量计三类。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_591_hsv0jplpo",
+      "type": "judge",
+      "content": "椭圆齿轮流量计的特点是，测量精确度高，与流体的粘度及流动状态无关，可做标准表或精密测量表使用。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_592_ed00e5b33",
+      "type": "judge",
+      "content": "流量计的流量标定装置种类，按标定方法分有容积法，差压法，标准流量计对比法。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_593_sogrckukk",
+      "type": "judge",
+      "content": "转子流量计制造厂为了便于成批生产，在进行刻度时，是根据使用单位的实际情况，用水或空气对仪表进行标定并给出曲线的。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_594_vfsl2c4y0",
+      "type": "judge",
+      "content": "流量计的流量标定装置种类，按标定方法分有容积法，容积法又分为标准容积法，标准体积管法。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_595_xatjjlle1",
+      "type": "judge",
+      "content": "质量流量计是以测量流体的质量为依据的流量计。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_596_z3gosrjrf",
+      "type": "judge",
+      "content": "根据靶式流量计测量流量的基本原理可知，靶式流量计是一种阻力式仪表。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_597_571fu99w4",
+      "type": "judge",
+      "content": "椭圆齿轮流量计是容积式流量计，用于测量各种流体、特别适用于测量高粘度流体的流量。椭圆齿轮流量计是容积式流量计，用于测量各种流体、特别适用于测量高粘度流体的流量。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_598_sp1yux8af",
+      "type": "judge",
+      "content": "质量流量计安装时有严格的直管段要求。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_599_2sij4dg1z",
+      "type": "judge",
+      "content": "气体流量计的标定，一般采用容积法，用标准容量瓶量体积，或者用校准过的流量计作比较标定。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_600_s3s6dbw2l",
+      "type": "judge",
+      "content": "速度式流量测量仪表是把流体在管道内已知截面流过的流速变换成压差、位移、转速、冲力、频率等对应信号来直接测量流量的。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_601_kanhvaeo6",
+      "type": "judge",
+      "content": "容积式流量表是依据已知固定的容积所排出流体的次数来测量流量的仪表。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_602_hh7qz4w4g",
+      "type": "judge",
+      "content": "靶式流量计通常是在力平衡式差压变送器的基础上，在它的主杠杆下端固定一个靶板而成。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_603_olk8i4o23",
+      "type": "judge",
+      "content": "质量流量计的传感器工作原理，通过激励线圈使管子产生振动，测量管产生科氏力，所以测量管会产生扭曲。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_604_moek92utn",
+      "type": "judge",
+      "content": "漩涡式流量计的特点之一是，在测量时管道内装有可动部件，故此使用寿命长，压力损失小，精确度高(±0.5~1.0%)，量程比宽(1:100)。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_605_6ll5wxs3k",
+      "type": "judge",
+      "content": "利用标准节流装置测量流量时的导压管的内径不小于6mm，一般为10~12mm，导压管的长度最长不超过50m，最短不少于3m。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_606_d09xggz4f",
+      "type": "judge",
+      "content": "超声波流量计测量管道的直径可从几厘米到几米，管道可圆形，也可矩形。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_607_fqydcugy7",
+      "type": "judge",
+      "content": "科氏力质量流量计传感器的敏感元件是测量管，测量管的形状只采用弯管式，弯管式测量管的形状，多为U形管，也有P形管、Ω形管等。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_608_oczj8o7lq",
+      "type": "judge",
+      "content": "校验时把浮筒底部阀打开，然后接塑料管进行灌水校验。要求塑料管一定和浮筒一样垂直才能保证校验准确。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_609_qg0v3l1e1",
+      "type": "judge",
+      "content": "利用标准节流装置测量流量时，为了能够正确地测量管道中的流量，标准节流装置必须垂直安装。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_610_grtm3rocl",
+      "type": "judge",
+      "content": "直管式质量流量计的特点是，测量管能自然排空;不易起振，为此需将测量管的管壁减薄，或用高频起振，但这样做会缩短测量管使用寿命。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_611_1co139svk",
+      "type": "judge",
+      "content": "安装双法兰液位计可以解决易凝固、易结晶、腐蚀性强、含有悬浮物介质的液位测量问题。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_612_cljzekypv",
+      "type": "judge",
+      "content": "直通双座阀因流通能力大，所以适应高黏度含悬浮颗粒流体的场合。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_613_s18bxuu6p",
+      "type": "judge",
+      "content": "玻璃板液面计可用于测量敞口容器和密闭容器的液位。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_614_dhrptbrx9",
+      "type": "judge",
+      "content": "玻璃板式液位计具有结构复杂测量不准确等缺点。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_615_3iei9m5yv",
+      "type": "judge",
+      "content": "透光式玻璃板液位计适于测量黏度大，色泽也较深的介质液位。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_616_qz34uyi2w",
+      "type": "judge",
+      "content": "变浮力式液位计主要是沉筒式液位计，在结构上，有位移平衡式、力平衡式和带差动变压器的沉筒液面计三种类型。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_617_en5pivmx2",
+      "type": "judge",
+      "content": "浮球液位计的结构是一机械杠杆系统，所以平衡锤在中间时，实际液位在中间。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_618_dj0dmcde7",
+      "type": "judge",
+      "content": "浮球液位计可以输出连续信号和接点信号。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_619_w1j7jbz2e",
+      "type": "judge",
+      "content": "按工作原理分翻板式液位计是直读式物位仪表的一种。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_620_3x48lel3a",
+      "type": "judge",
+      "content": "浮标液位计是根据恒浮力原理而工作的，磁耦合浮子式液位计是其中的一种。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_621_udm4sjqpj",
+      "type": "judge",
+      "content": "浮筒式液位计属于变浮力式液位计，浮球式液位计属于恒浮力式液位计。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_622_l6akj6rks",
+      "type": "judge",
+      "content": "浮筒式液位计测量液位时，液位最高，扭力管所产生的扭角最大，液位最低，产生的扭角越小。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_623_7lmhuxwnm",
+      "type": "judge",
+      "content": "浮筒式液位计测量液位时，若浮筒脱落，其输出应最大。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_624_1ntrzgeb5",
+      "type": "judge",
+      "content": "用电容式液位计测量介电质的液位时，液位变化，相当于电极面积在改变。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_625_n98aq0wdv",
+      "type": "judge",
+      "content": "两个不同的容器，其中一个内部的液柱变化范围比较大，那么可以得出结论，则仪表的量程也相对大。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_626_n4cthj5to",
+      "type": "judge",
+      "content": "液位变化时，浮球式液位计浮球所受的浮力也跟着变化，因而可以测出液位的高低。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_627_eahyxpz1l",
+      "type": "judge",
+      "content": "吹气法测量液位的前提条件是使导管下方有微量气泡冒出。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_628_owbwha3sy",
+      "type": "judge",
+      "content": "用浮筒式液位计测量液位时，液位越高，扭力管所产生的扭角越大;液位越低，产生的扭角越小。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_629_jsqfaj8ew",
+      "type": "judge",
+      "content": "调节系统中，调节阀产生的机械噪声主要来自阀芯、阀杆和一些可以活动的零件。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_630_28xqchw5d",
+      "type": "judge",
+      "content": "工业上遇到的调节阀的噪声，大多数是气体动力噪声。气体动力噪声是气体或蒸汽流过节流孔而产生的。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_631_ma9rq4ldh",
+      "type": "judge",
+      "content": "调节阀液体动力噪声是由于液体流过调节阀的节流孔而产生的。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_632_lwp9vjmm7",
+      "type": "judge",
+      "content": "按照波源的不同，调节阀噪声可以分为机械噪声、流体噪声和电磁噪声，这三种噪声在调节阀上都会产生。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_633_lyoavecws",
+      "type": "judge",
+      "content": "单座调节阀在运行中易产生振荡的原因一定是弹簧刚度太小。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_634_vuv9zmztd",
+      "type": "judge",
+      "content": "某气动调节阀若关不死的原因，一定是阀芯与阀座磨损太严重。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_635_agcprmqrj",
+      "type": "judge",
+      "content": "机泵盘不动车的主要原因是泵或电机出现机械故障。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_636_jxa8axvgb",
+      "type": "judge",
+      "content": "用于管道连接的法兰中，最常见的类型是孔板型。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_637_fo2qnohyl",
+      "type": "judge",
+      "content": "节流装置在水平管道上安装时，取压口一般设在法兰、环室或者夹紧件上。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_638_52d7q5fwf",
+      "type": "judge",
+      "content": "由于管件种类很多，选用时必须注意管件和管子规格相适应。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_639_scoyoftum",
+      "type": "judge",
+      "content": "仪表导压管路的安装要求横平竖直，整齐美观，不能交叉。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_640_8fetqpri7",
+      "type": "judge",
+      "content": "角形调节阀用于侧进底出时，容易发生振荡。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_641_h9vbm2u29",
+      "type": "judge",
+      "content": "角行程阀芯通过旋转运动来改变它与阀座之间的流通截面积。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_642_ld9n10qrv",
+      "type": "judge",
+      "content": "直行程活塞执行机构它主要用于角行程的调节阀，它分为有弹簧和无弹簧两种",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_643_a71v9cfah",
+      "type": "judge",
+      "content": "柱塞型阀芯可以实现正装和反装。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_644_kg2zm4cq1",
+      "type": "judge",
+      "content": "对于套筒阀其套筒窗口形状决定了该阀的特性。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_645_ad06572km",
+      "type": "judge",
+      "content": "转子流量计由两个部分组成，一个是垂直安装的直管段，另一个是放在直管段内的可以自由运动的转子。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_646_j6enumu8a",
+      "type": "judge",
+      "content": "柱塞型阀芯均为上、下双导向。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_647_gqnonxthv",
+      "type": "judge",
+      "content": "利用阀门定位器可以实现阀门动作反向。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_648_o20jjm3wp",
+      "type": "judge",
+      "content": "横跨皮带机、链条机时，可装横跨过梯。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_649_4gjt17l27",
+      "type": "judge",
+      "content": "抛物线特性是调节阀理想流量特性之一。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_650_sm91g2uxu",
+      "type": "judge",
+      "content": "常用的阀位发信装置主要有阀位传送器、阀位开关两种。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_651_o2wohdxfu",
+      "type": "judge",
+      "content": "当调节阀与管道串联时，其可调比增大。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_652_kb11jxyip",
+      "type": "judge",
+      "content": "当调节阀与管道串联时，其可调比变大。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_653_7ud0589uk",
+      "type": "judge",
+      "content": "阀位控制器可以与各类调节阀配套使用，用来显示调节阀行程的上限和下限。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_654_8i4fl9h0b",
+      "type": "judge",
+      "content": "调节阀使用的弹簧范围有多种，分别选用调整各种弹簧范围的启动压力，可使执行机构具有不同的输出力。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_655_hkyj3uw3r",
+      "type": "judge",
+      "content": "气开阀无信号时，阀处于全开位置，气关阀则处于全关位置。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_656_l8b7dtgi3",
+      "type": "judge",
+      "content": "当阀体直立，阀杆下移时，阀芯与阀座间的流通面积减小的称为正装。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_657_1zk96nej8",
+      "type": "judge",
+      "content": "智能阀门定位器根据阀的特性可对行程进行纠正。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_658_bx2b4ukw2",
+      "type": "judge",
+      "content": "调节阀选型时流量系数越大越好。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_659_obor0cec0",
+      "type": "judge",
+      "content": "在安装过滤减压器时，必须按箭头方向或“输入”、“输出”方向分别与管道连接。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_660_tw5a2hggs",
+      "type": "judge",
+      "content": "当控制阀的可调范围不能满足生产的大流量范围变化，可考虑采用两个控制阀串联的分程控制方案。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_661_tgto63rud",
+      "type": "judge",
+      "content": "电气阀门定位器分为本安型和隔爆型。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_662_ktkdz4kmv",
+      "type": "judge",
+      "content": "调节阀的理想可调比取决于阀芯形状、实际可调比取决于阀芯形状和配管状态。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_663_4609c6wfc",
+      "type": "judge",
+      "content": "直行程阀芯按其导向来分有双导向和单导向两种。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_664_z81ctf18e",
+      "type": "judge",
+      "content": "调节阀的可调比就是调节阀所能控制的最大流量与最小流量之比。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_665_h6h0rgepr",
+      "type": "judge",
+      "content": "调节阀减小机械噪声的方法主要是改进阀门本身结构，特别是阀芯、阀座结构和导向部分的结构，提高刚度，减小可动构件的质量。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_666_coh1t78fx",
+      "type": "judge",
+      "content": "气动薄膜调节阀分为直通单座调节阀和直通双座调节阀。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_667_pq2ysrbt0",
+      "type": "judge",
+      "content": "直通单座调节阀结构上分为调节型与切断型，区别在于阀芯结构不同。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_668_3u5ry2m3t",
+      "type": "judge",
+      "content": "调节阀按照动力源可分为气动、液动、电动，按阀芯动作形式分直行程和角行程。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_669_mayor5zyz",
+      "type": "judge",
+      "content": "当调节阀设有旁路时，则称为调节阀与管道并联。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_670_v648p7yd1",
+      "type": "judge",
+      "content": "调节阀和普通阀门一样，是一个局部阻力可以改变的节流元件。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_671_z2owghf61",
+      "type": "judge",
+      "content": "阀门定位器按输入信号压力分为气动阀门定位器和电/气阀门定位器。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_672_5v40zyf0k",
+      "type": "judge",
+      "content": "当调节阀与管道并联时，其可调比变小。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_673_dgrgwj74s",
+      "type": "judge",
+      "content": "调节阀流向的划分的可以按介质的流向来定义，也可以按介质的不平衡力作用方向来定义。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_674_v91o8s1rj",
+      "type": "judge",
+      "content": "直通双座调节阀有一个阀芯和两个阀座。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_675_5a7rde137",
+      "type": "judge",
+      "content": "智能阀门定位器可以进行组态以实现不同的功能。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_676_60mft37af",
+      "type": "judge",
+      "content": "高压角阀的执行机构应选用刚度较大的，且都要安装阀门定位器。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_677_3ynfxki2t",
+      "type": "judge",
+      "content": "调节阀理想流量特性是指介质在理想状态下，调节阀的工作特性。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_678_yf7qchvrb",
+      "type": "judge",
+      "content": "调节阀同孔板一样是一个局部阻力元件，阀芯的移动改变着节流面积。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_679_dih3efuok",
+      "type": "judge",
+      "content": "对于气动阀门定位器如果没有输出信号则通常是喷嘴挡板堵。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_680_n29e95glv",
+      "type": "judge",
+      "content": "在带定位器的调节阀校验中，应该先校调节阀，在与定位器联校。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_681_2ggrvoctj",
+      "type": "judge",
+      "content": "在实际应用中，调节阀既与管道串联又与管道并联，其工作特性曲线会发生很大变化。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_682_ulbv4o99x",
+      "type": "judge",
+      "content": "安装阀门定位器的重要作用是可以用于消除执行器薄膜和弹簧的不稳定性，以及各可动部分的干摩擦影响，从而提高调节阀的精确定位和可靠性。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_683_q1qj7enrw",
+      "type": "judge",
+      "content": "调节阀的理想流量特性取决于阀芯形状、工作流量特性取决于阀芯形状和配管状态。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_684_qtp4rfqpq",
+      "type": "judge",
+      "content": "气动阀门定位器与电动阀门定位器作用一样。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_685_u3pe1omm5",
+      "type": "judge",
+      "content": "分程控制方案中，调节阀的开闭形式、同向或异向规律的选择，完全有工艺的需要来定。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_686_cbkemgbnr",
+      "type": "judge",
+      "content": "调节阀的最小可控制流量就是该阀的泄漏量。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_687_kh5eq4wt3",
+      "type": "judge",
+      "content": "当调节阀与管道并联时，其可调比降低。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_688_sqdgs5gn9",
+      "type": "judge",
+      "content": "调节阀填料放得越多越好。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_689_3xt2c2han",
+      "type": "judge",
+      "content": "利用阀门定位器可以弥补调节阀执行机构在克服压差上的不足。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_690_fpag1tnna",
+      "type": "judge",
+      "content": "由于节流装置前后流束收缩的截面大小不同，使得流速和静压力也不同。节流装置入口侧，流束截面大，流速小、静压力小;节流装置出口侧，流束截面小，流速大、静压力大。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_691_eyah97d7a",
+      "type": "judge",
+      "content": "在节流装置的流量基本方程式中，当α、β、d、ρ均为常数时，流量与差压成正比。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_692_8re126p7s",
+      "type": "judge",
+      "content": "流体在管道中的流速越快，流体对管壁的压强越小。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_693_xxzgc7lsl",
+      "type": "judge",
+      "content": "充满管道且沿管道轴向连续向前流动的流体，当遇到节流装置的阻挡作用时，若流量Q愈大，则流束的局部收缩和位能、动能相互转换也愈显著，产生的压差ΔP也愈显著。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_694_d2423c51a",
+      "type": "judge",
+      "content": "在单位时间内通过管道(或设备)某一截面流体的数量称为瞬时流量，通常称为流量。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_695_wn4u6jhrg",
+      "type": "judge",
+      "content": "在流体流动过程中，单位时间内通过导管任一截面积的流体量，称为流量。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_696_tbxlrl7oc",
+      "type": "judge",
+      "content": "当被测流体流经椭圆齿轮流量计时，流体入口与出口压力差产生的作用力，将带动椭圆齿轮旋转，把椭圆齿轮与壳体间半月形容积的液体排出。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_697_h10rbksn5",
+      "type": "judge",
+      "content": "靶式流量计的靶板插入管道中，当流体流过时，便在靶板前后产生静压差，其值的大小和流体流速成正比例。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_698_nagilwm8a",
+      "type": "judge",
+      "content": "在同一开度下直线流量特性的流量大于对数流量特性的流量，相对流量变化，直线流量特性小开度变化大、大开度变化小。对数流量特性相对流量变化为常数。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_699_t9j4dwkab",
+      "type": "judge",
+      "content": "弹簧管压力表的基本测量原理就是弹簧管通入被测压力后，自由端产生微小位移，再通过传动放大机构把自由端的位移转换成指针的移动位置。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_700_0eojcqi62",
+      "type": "judge",
+      "content": "弹簧管压力表的弹簧管为弯成270°圆弧的椭圆形截面的空心金属管，其越扁耐压越高。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_701_w7vpoa6y6",
+      "type": "judge",
+      "content": "压力表指针的位移是经过两次放大而实现的。其中第二次放大是中心齿轮的半径远远小于扇形齿轮的半径之故。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_702_zq1fnszkk",
+      "type": "judge",
+      "content": "单弹簧管压力表的感压部件是指针。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_703_zs9u31vdx",
+      "type": "judge",
+      "content": "压力表指针的位移是经过两次放大而实现的。其中第二次放大是中心齿轮的节圆半径远远小于扇形齿轮的节圆半径之故。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_704_z46kz1e2g",
+      "type": "judge",
+      "content": "真空泵运行正常后，要关闭提供液环的阀门。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_705_gnjvqrfhc",
+      "type": "judge",
+      "content": "当控制阀口径一定，及其两端压差不变时，则流量不再变化。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_706_hytjgot5q",
+      "type": "judge",
+      "content": "浆料泵停车时，首先要关闭机械密封液阀门。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_707_9bu5d1ucb",
+      "type": "judge",
+      "content": "阻塞流发生后，流量不再受差压的影响。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_708_3so5t1qry",
+      "type": "judge",
+      "content": "投运前，差压式流量计三阀组的状态是:平衡阀开，正压阀和负压阀关闭。正确投运差压式流量计的步骤是先开负压阀，再开正压阀，最后关平衡阀。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_709_bdy41dw0x",
+      "type": "judge",
+      "content": "用压力变送器测量开口容器的液位，如果在安装好以后，因为维护需要，将仪表安装位置下移，仪表的指示是不变的。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_710_aapbvc6mh",
+      "type": "judge",
+      "content": "用压力表测量液位时，仪表安装的高度应与液位零位的高度相同。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_711_f2k65ymo7",
+      "type": "judge",
+      "content": "双法兰液位计安装时要注意正负压室位置不要装错，正压室装在设备上面取压口，负压室装在设备下面取压口。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_712_5jb3c6omi",
+      "type": "judge",
+      "content": "在一开口容器安装的液位计，由于负导压管有液柱存在，则相对应的仪表就无法使用。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_713_ncc44jke7",
+      "type": "judge",
+      "content": "如果测得某个敞口贮水槽的底部所承受的全部压力为P时，那么这个压力P就是表压。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_714_eeut7dvss",
+      "type": "judge",
+      "content": "国标规定;调节阀在1.1倍公称压力下，填料至上、下阀盖连接处不应有渗漏现象，在1.5倍公称压力下，持续3min以上时间，其法体不应有肉眼可见的渗漏。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_715_hadc2xhpf",
+      "type": "judge",
+      "content": "直通双座调节阀适用于大口径、高压差、泄漏量要求不高的场合。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_716_dwddwmnt2",
+      "type": "judge",
+      "content": "调节阀的填料装填于上阀盖填料室内，其作用是防止介质因阀杆的移动而向外泄漏。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_717_sy0t4crq3",
+      "type": "judge",
+      "content": "蝶阀特点是结构简单、流阻小，泄漏量大，适用于口径较大、大流量、低压差的场合。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_718_czsc61nat",
+      "type": "judge",
+      "content": "安全阀的作用是，当压力容器的压力超过允许工作压力时，自动打开，把容器内的气体或液体排出，直至压力恢复正常。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_719_0n3w3e6j5",
+      "type": "judge",
+      "content": "一般来说，管道中介质压力在16MPa一下的属于低压管道。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_720_x5utmsyuq",
+      "type": "judge",
+      "content": "调节阀密封填料函孔径和阀杆直径的比值d0/d1影响径向压力的方向。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_721_2nfrwi30t",
+      "type": "judge",
+      "content": "我们知道，对气关阀膜室信号压力首先保证阀的关闭到位，然后再增加的这部分力才把阀芯压紧在阀座上，克服压差把阀芯顶开。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_722_0q2sbcd5n",
+      "type": "judge",
+      "content": "在GB/T2624-93中规定的标准节流装置取压方式为:标准孔板和标准喷嘴都可以用角接取压和法兰取压。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_723_d6aiqsvjc",
+      "type": "judge",
+      "content": "所有承受压力载荷的密闭容器都可称为压力容器。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_724_1wg54aqzj",
+      "type": "judge",
+      "content": "测量液体压力时，去压点应在管道下部，使导压管内不积存气体。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_725_icprjuq2d",
+      "type": "judge",
+      "content": "泄漏量是指在规定的试验条件下和阀门关闭情况下，流过阀门的流体流量，这里所指的试验条件包括执行机构有足够的推力，阀座和阀芯能够压紧，阀门前、后有一定压差，在室温下进行。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_726_bnp320obm",
+      "type": "judge",
+      "content": "直通单座调节阀适用于小口径、低压差、泄漏量要求小的场合。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_727_hf31rf45h",
+      "type": "judge",
+      "content": "导压管液压试验压力应为1.5倍的设计压力，当达到试验压力后，稳压10min，再将试验压力降至设计压力，停压10min，以压力不降、无渗漏为合格。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_728_aaat5iy4v",
+      "type": "judge",
+      "content": "国家标准规定调节阀的填料函及其他连接处应保证在1.1倍公称压力下无渗漏现象。对调节阀应以1.5倍公称压力的试验压力，进行3分钟以上的耐压强度试验，试验期间不应有肉眼可见的渗漏。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_729_bjcfzxsuw",
+      "type": "judge",
+      "content": "无弹簧活塞执行机构它的活塞随气缸两侧的压差而移动，气动活塞式执行机构允许操作压力可达700KPa，因为没有弹簧抵消力，所以有很大的输出推力",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_730_b9z5vwubw",
+      "type": "judge",
+      "content": "压力恢复系数FL表示控制阀内部流体经缩流处后，动能转变为静压的恢复能力。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_731_o7od39ivz",
+      "type": "judge",
+      "content": "FL称压力恢复系数和临界流量系数。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_732_jeuo0uxud",
+      "type": "judge",
+      "content": "调节阀的可调范围反映了调节阀可控制的流量范围，数学表达式为R=Qmin?Qmax??",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_733_e21xyuknl",
+      "type": "judge",
+      "content": "调节阀流量系数英制单位制用KV表示。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_734_haflqrlyx",
+      "type": "judge",
+      "content": "调节阀流量系数C、CV、KV表示的含义一样。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_735_364h8bfc0",
+      "type": "judge",
+      "content": "调节阀流量系数国际单位制用KV表示",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_736_8j27ax04f",
+      "type": "judge",
+      "content": "调节阀的流量特性用数学表达式为=lfqmaxq",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_737_9i55lpjnf",
+      "type": "judge",
+      "content": "“L/h;Kg/h”这些符号都是表示流量的单位，它们表示的是质量流量的单位。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_738_w1gydthrh",
+      "type": "judge",
+      "content": "Kv的定义为:5~40℃的水，在阀两端100KPa压降下，调节阀全开时每小时流过的立方米数。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_739_mzi5sex94",
+      "type": "judge",
+      "content": "化工企业进行隐患排查时，季节性隐患排查应根据季节性特点及本单位的生产实际，至少每季度开展一次。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_740_xhrl1emx2",
+      "type": "judge",
+      "content": "化工企业在进行季节性排查时，夏季排查要以防雷暴、防设备容器超温超压、防台风、防洪、防暑降温等为重点。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_741_uaf70rrd5",
+      "type": "judge",
+      "content": "为了确保安全防爆，必须严格限制仪表的表面温度。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_742_ire3sb4gt",
+      "type": "judge",
+      "content": "冬季巡检时，应着重检查保温及伴热系统，注意防冻防凝。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_743_ghi7z450m",
+      "type": "judge",
+      "content": "现有一块量程为0~600℃的温度表，在500℃处计量检测值为503℃，此处测量误差为最大，则仪表的最大相对百分误差为0.6%。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_744_ut6orfrn1",
+      "type": "judge",
+      "content": "摄氏温标的100℃和0℃之间的划分是100等分，而华氏温标对于冰的融点和水的沸点划分是180等分。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_745_pxjz0r5hr",
+      "type": "judge",
+      "content": "铜热电阻在测量范围-50℃~150℃内，具有很好的稳定性，而在高于150℃时，被氧化，失去良好的线性特性。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_746_clphfz2la",
+      "type": "judge",
+      "content": "分度号为K的镍铬-考铜热电偶在氧化性的介质中使用，且热电性较大，具有广泛的应用。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_747_gge88jlnf",
+      "type": "judge",
+      "content": "铠装热电偶是利用真空镀膜法将两电极材料蒸镀在绝缘基底上的薄膜热电偶。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_748_rwbxfyfxk",
+      "type": "judge",
+      "content": "两种金属的接触电势，在金属固定后，就和接触点的温度有关，温度越高，金属的自由电子越活跃，电场越强，接触电势也越高。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_749_o3v806ivd",
+      "type": "judge",
+      "content": "双金属温度计双金属片制成螺旋形是为了抗震性更好。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_750_j6ybkcrq6",
+      "type": "judge",
+      "content": "双金属温度计的两层膨胀系数不同，当温度上升时，主动层的膨胀系数大。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_751_6ia7vb83b",
+      "type": "judge",
+      "content": "任意两种不同类型的金属导体都可以充当热电偶。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_752_jxcolwbb6",
+      "type": "judge",
+      "content": "在AB金属组成的热电偶中，接入连接导线C后，会影响所产生的电势值。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_753_m76gfjhkn",
+      "type": "judge",
+      "content": "将两根不同材料的金属导线的两端焊接在一起组成一个闭合回路，如果将其一端加热，那么在闭合回路中就有热电势产生，这种现象就称为热点现象。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_754_xfxk0px0p",
+      "type": "judge",
+      "content": "引起闪燃的最高温度称为闪点。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_755_wdrg58kj2",
+      "type": "judge",
+      "content": "热偶的保护套管使用温度最高的是瓷管，温度在1900℃以上。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_756_15ucd682y",
+      "type": "judge",
+      "content": "伴热方式分为夹套伴热、强伴热、重伴热和轻伴热。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_757_vd33ut4gn",
+      "type": "judge",
+      "content": "工业上采用的换热方法是很多的，按其工作原理和设备类型可分为间壁式、蓄热式、直接混合式三种。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_758_xxsudd650",
+      "type": "judge",
+      "content": "膨胀式和压力式温度计都是利用的物体受热膨胀这一原理。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_759_rmi1o93rm",
+      "type": "judge",
+      "content": "S型热电偶有较好的化学稳定性，不易氧化;具有较高的测量精度，一般可以作为精密温度测量，还可以作为基准热电偶。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_760_6yies6tw9",
+      "type": "judge",
+      "content": "仪表的表面温度由仪表本身的积温所决定。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_761_dtydlcnmn",
+      "type": "judge",
+      "content": "热电阻温度计是把温度的变化通过测温元件-热电阻转换为电阻值的变化来测量温度的。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_762_kxy3tltzv",
+      "type": "judge",
+      "content": "压力式温度计是利用介质受热后，因体积膨胀或压力增加来测量温度的。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_763_qavgxlxjc",
+      "type": "judge",
+      "content": "既然液体的体积随温度也有变化，所以可以使用任何液体充当液体温度计的填充物。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_764_h9rb3www3",
+      "type": "judge",
+      "content": "B型热电偶和其它热电偶一样，在测量时，也需要进行冷端温度修正。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_765_6arg1t3jo",
+      "type": "judge",
+      "content": "热式质量流量计只能用在气体，利用各种气体对热的传导和吸收能力不同，测量从发热到感应之间的热量传递或者热能损失来对应流速。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_766_d93v7hbz8",
+      "type": "judge",
+      "content": "膨胀式温度计是利用介质受热后，因体积膨胀而引起封闭系统中压力变化的原理，通过测量压力的大小而测量温度值。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_767_al4jy5azu",
+      "type": "judge",
+      "content": "热电偶温度变送器的线性化是使用分段线性化器实现的。而热电阻温度变送器的线性化是在整机的反馈回路中引入一条支路，形成正反馈的效果。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_768_h75vwq7gx",
+      "type": "judge",
+      "content": "在对流传热中，同样有流体质点之间的热传导，但起主导作用的还在与流体质点的位置变化。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_769_os7usrbl0",
+      "type": "judge",
+      "content": "稳定热传导中，单位时间内传导的热量与导热面积成正比关系。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_770_m7t567uk1",
+      "type": "judge",
+      "content": "烟、雾、粉尘等物质是气体，易进入呼吸系统，危害人体健康。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_771_9zogu5a40",
+      "type": "judge",
+      "content": "工艺过程排放是造成石化行业污染的主要途径。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_772_340wpksbc",
+      "type": "judge",
+      "content": "通风是控制作业场所中有害气体蒸汽或粉尘最有效的措施。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_773_bn90flgvy",
+      "type": "judge",
+      "content": "石化行业污染的特点之一是污染种类多、危害大。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_774_jt66mbar3",
+      "type": "judge",
+      "content": "燃烧产生的废气是石化行业污染的主要来源之一。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_775_njoz6y6nb",
+      "type": "judge",
+      "content": "灭火方法主要有:冷却法、窒息法、隔离法、抑制法。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_776_awmcs9e51",
+      "type": "judge",
+      "content": "干粉灭火的特点是灭火时间短，效率高，对石油及石油产品的灭火效果最佳。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_777_h899re5c2",
+      "type": "judge",
+      "content": "干粉灭火器能迅速扑灭液体火焰，同时泡沫能起到及时冷却作用。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_778_43q2d5i92",
+      "type": "judge",
+      "content": "1211灭火器仅适用于扑灭易燃、可燃气体或液体，不适用于扑灭一般易燃固体物质的火灾。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_779_bwa8h41p5",
+      "type": "judge",
+      "content": "苛性钠和它的溶液遇火既不会燃烧又不能助燃。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_780_u21g65gfe",
+      "type": "judge",
+      "content": "醋酸遇到明火既不会燃烧又不能助燃，也不会发生爆炸。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_781_tvvqwwizx",
+      "type": "judge",
+      "content": "抗溶性泡沫灭火剂可以扑灭一般烃类液体火焰，但不能扑救水溶性有机溶剂的火灾。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_782_wy4tzn4nv",
+      "type": "judge",
+      "content": "爆炸性环境是指在大气条件下，气体、蒸气、薄雾或粉尘可燃物质与空气形成混合物，点燃后，燃烧将传至全部未燃烧混合物的环境。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_783_mgoadzzvw",
+      "type": "judge",
+      "content": "可燃性气体、蒸气与空气的混合物浓度高于其爆炸下限时，或低于其爆炸上限时，都不会发生爆炸。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_784_c5cbawt7b",
+      "type": "judge",
+      "content": "所谓“安全火花”是指其能量不足以对其周围可燃物质构成点火源。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_785_xtdf42yhh",
+      "type": "judge",
+      "content": "危险化学品火灾事故主要是爆炸品的火灾事故。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_786_ditsrj7gl",
+      "type": "judge",
+      "content": "燃点是指可燃物质在空气充足条件下，达到某一温度时与火源接触即行着火，并在移去火源后继续燃烧的最低温度。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_787_b4n5t130l",
+      "type": "judge",
+      "content": "自燃点是指可燃物在没有火焰、电火花等火源直接作用下，在空气或氧气中被加热而引起燃烧的最高温度。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_788_2va3tbys8",
+      "type": "judge",
+      "content": "若管道和设备上有油脂，碰到明火，可能发生燃烧甚至爆炸。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_789_aqtpnglxh",
+      "type": "judge",
+      "content": "化工装置出现氢气泄漏着火时，由于火焰的颜色很淡，因此在光线明亮处不易察觉。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_790_04wifpqwv",
+      "type": "judge",
+      "content": "每一条气源支管的最低点或末端要安装排气阀。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_791_fx3ecu39z",
+      "type": "judge",
+      "content": "可燃气体检测器和有毒气体检测器的安装位置应根据所检测气体的密度确定。其密度大于空气时，检测器应安装在距地面200~300mm的位置;其密度小于空气时，检测器应安装在泄漏域的上方位置。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_792_9sdeihi98",
+      "type": "judge",
+      "content": "氢气压缩机处，应在最低处设置可燃气体检测仪。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_793_h683xst5f",
+      "type": "judge",
+      "content": "可燃气体检测仪宜安装于无冲击、无振动、无强电磁干扰的场所，且周围留有不小于5米的净空。",
+      "answer": "错误",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_794_f7gfaptd8",
+      "type": "judge",
+      "content": "烟尘的颗粒直径在0.1μm以下。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_795_q73josgux",
+      "type": "judge",
+      "content": "工业上利用氮气的稳定性，向碳钢设备充氮防止设备氧化。",
+      "answer": "正确",
+      "explanation": ""
+    },
+    {
+      "id": "q_1764119005901_796_u4h9exihd",
+      "type": "judge",
+      "content": "筛板塔、泡罩塔、浮阀塔和填料塔都属于板式塔。",
+      "answer": "错误",
+      "explanation": ""
+    }
+  ]
+}

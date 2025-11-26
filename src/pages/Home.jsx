@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { BookOpen } from 'lucide-react';
 import ExcelUploader from '../components/ExcelUploader';
 import QuestionBankList from '../components/QuestionBankList';
@@ -10,16 +10,37 @@ export default function Home() {
     const [wrongQuestionsCount, setWrongQuestionsCount] = useState(0);
     const [loading, setLoading] = useState(true);
     const navigate = useNavigate();
+    const isLoadingPreset = useRef(false);
 
     const loadData = async () => {
         setLoading(true);
         try {
             const banks = await getAllQuestionBanks();
+
+            // Auto-load preset question banks if database is empty and not already loading
+            if (banks.length === 0 && !isLoadingPreset.current) {
+                isLoadingPreset.current = true;
+                const { loadPresetQuestionBanks } = await import('../utils/jsonLoader');
+                const result = await loadPresetQuestionBanks(banks);
+
+                if (result.loaded) {
+                    console.log(`已自动加载 ${result.count} 个预设题库`);
+                    // Reload banks after auto-loading
+                    const updatedBanks = await getAllQuestionBanks();
+                    setQuestionBanks(updatedBanks);
+                } else {
+                    setQuestionBanks(banks);
+                }
+                isLoadingPreset.current = false;
+            } else {
+                setQuestionBanks(banks);
+            }
+
             const wrongQuestions = await getAllWrongQuestions();
-            setQuestionBanks(banks);
             setWrongQuestionsCount(wrongQuestions.length);
         } catch (error) {
             console.error('Failed to load data:', error);
+            isLoadingPreset.current = false;
         } finally {
             setLoading(false);
         }
