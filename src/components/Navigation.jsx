@@ -5,12 +5,17 @@ import { Link, useLocation } from 'react-router-dom';
 export default function Navigation() {
     const location = useLocation();
 
+    // We hide the top navigation on small screens when the user is on the
+    // answering/practice page (e.g. /practice/:bankId) to avoid duplicate header
+    // content above the page's own "退出" button.
+    const isPracticeRoute = location.pathname.startsWith('/practice/');
+
     const isActive = (path) => {
         return location.pathname === path;
     };
 
     return (
-        <nav className="bg-white/10 backdrop-blur-md border-b border-white/20">
+        <nav className={`bg-white/10 backdrop-blur-md border-b border-white/20 ${isPracticeRoute ? 'hidden sm:block' : ''}`}>
             <div className="container mx-auto px-4">
                 <div className="flex items-center justify-between h-16">
                     <Link to="/" className="flex items-center space-x-2">
