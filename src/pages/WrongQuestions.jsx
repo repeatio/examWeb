@@ -227,36 +227,7 @@ export default function WrongQuestions() {
                                 </div>
                             </div>
 
-                            {/* Wrong Questions List */}
-                            <div className="space-y-3">
-                                {bankData.questions.map((wq, index) => (
-                                    <div
-                                        key={wq.id}
-                                        className="bg-white/5 hover:bg-white/10 rounded-xl p-4 transition-all duration-200"
-                                    >
-                                        <div className="flex items-start justify-between">
-                                            <div className="flex-1">
-                                                <div className="flex items-center space-x-3 mb-2">
-                                                    <span className="px-2 py-1 bg-red-500/20 text-red-300 rounded text-xs font-semibold">
-                                                        {wq.question.type === 'choice' ? '选择题' : '判断题'}
-                                                    </span>
-                                                    <span className="text-sm text-gray-400">
-                                                        答错 {wq.wrongCount} 次
-                                                    </span>
-                                                </div>
-                                                <p className="text-white mb-2">{wq.question.content}</p>
-                                                <div className="flex items-center space-x-4 text-xs text-gray-500">
-                                                    <div className="flex items-center space-x-1">
-                                                        <Calendar className="w-3 h-3" />
-                                                        <span>最后答错: {formatDate(wq.lastWrongTime)}</span>
-                                                    </div>
-                                                    <span>正确答案: {wq.question.answer}</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
+                            {/* Wrong Questions List removed per request */}
                         </div>
                     ))}
                 </div>
