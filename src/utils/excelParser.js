@@ -1,11 +1,13 @@
-import * as XLSX from 'xlsx';
-
 /**
  * Parse Excel file and extract questions
  * @param {File} file - The Excel file to parse
  * @returns {Promise<{name: string, questions: Array}>} - Parsed question bank
  */
 export async function parseExcelFile(file) {
+    // Dynamically import xlsx to avoid adding it to the initial bundle
+    const mod = await import('xlsx');
+    const XLSX = mod.default ?? mod;
+
     return new Promise((resolve, reject) => {
         const reader = new FileReader();
 

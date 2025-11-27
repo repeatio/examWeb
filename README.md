@@ -71,6 +71,19 @@ npm run build
 
 需要支持 IndexedDB 和 ES6+ 特性。
 
+### 旧手机兼容性说明
+
+- 本项目默认使用现代模块构建（ESM），部分较旧的手机浏览器（不支持 `<script type="module">`）会直接显示空白页面。
+- 已添加 `@vitejs/plugin-legacy` 与 `core-js`，构建时会生成一个兼容旧浏览器的 `nomodule` 包并注入常见 polyfill（例如 `Promise`、`Symbol`、`async/await` 的运行时）。
+- 构建步骤：
+
+```bash
+npm install
+npm run build
+```
+
+- 在支持较旧设备的场景中，请优先使用构建产物（`dist`）部署；如果仍然出现空白，尝试在手机浏览器中打开开发者工具查看控制台错误，或在桌面 Chrome 中用较旧的用户代理/版本模拟测试。
+
 ## 数据存储
 
 所有数据存储在浏览器的 IndexedDB 中，包括：
