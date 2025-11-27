@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { BookOpen, Trash2, Play, Calendar, AlertCircle } from 'lucide-react';
+import { BookOpen, Trash2, Play, Calendar, AlertCircle, FileText, RotateCcw } from 'lucide-react';
 import { getAllWrongQuestions, clearAllWrongQuestions, clearWrongQuestionsByBankId } from '../utils/db';
 
 export default function WrongQuestions() {
@@ -190,18 +190,27 @@ export default function WrongQuestions() {
                 {/* Grouped Wrong Questions */}
                 <div className="space-y-6">
                     {Object.entries(groupedQuestions).map(([bankId, bankData]) => (
-                        <div key={bankId} className="card">
-                            <div className="flex items-center justify-between mb-4 pb-4 border-b border-white/20">
-                                <div>
-                                    <h2 className="text-2xl font-bold">{bankData.name}</h2>
-                                    <p className="text-gray-400 text-sm mt-1">
-                                        {bankData.questions.length} 道错题
-                                    </p>
+                        <div
+                            key={bankId}
+                            className="card-hover group"
+                            onClick={() => handlePractice(bankData)}
+                        >
+                            <div className="flex items-start justify-between mb-3">
+                                <div className="flex items-center space-x-3">
+                                    <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                                        <FileText className="w-6 h-6 text-white" />
+                                    </div>
+                                    <div className="flex-1 min-w-0">
+                                        <h3 className="font-bold text-lg truncate group-hover:text-purple-400 transition-colors">
+                                            {bankData.name}
+                                        </h3>
+                                        <p className="text-sm text-gray-400 mt-1">{bankData.questions.length} 道错题</p>
+                                    </div>
                                 </div>
 
-                                <div className="flex space-x-2">
+                                <div className="flex items-center space-x-2">
                                     <button
-                                        onClick={() => handlePractice(bankData)}
+                                        onClick={(e) => { e.stopPropagation(); handlePractice(bankData); }}
                                         className="btn-primary flex items-center space-x-2"
                                     >
                                         <Play className="w-5 h-5" />
@@ -210,9 +219,10 @@ export default function WrongQuestions() {
 
                                     <button
                                         onClick={(e) => handleClearBank(e, bankId)}
-                                        className="btn-secondary flex items-center space-x-2 hover:bg-red-500/20 hover:border-red-400"
+                                        className="p-2 hover:bg-red-500/20 rounded-lg transition-all duration-200 opacity-0 group-hover:opacity-100"
+                                        title="清空该题库错题"
                                     >
-                                        <Trash2 className="w-5 h-5" />
+                                        <Trash2 className="w-5 h-5 text-red-400" />
                                     </button>
                                 </div>
                             </div>
