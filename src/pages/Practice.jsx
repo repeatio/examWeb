@@ -10,6 +10,7 @@ export default function Practice() {
     const location = useLocation();
     const navigate = useNavigate();
     const { bankId } = useParams();
+    const autoAdvanceTimerRef = useRef(null);
     const [searchParams] = useSearchParams();
     const { questionBank: stateQuestionBank, mode: stateMode, isWrongQuestions: stateIsWrongQuestions, resume: stateResume } = location.state || {};
     const paramMode = searchParams.get('mode');
@@ -253,7 +254,31 @@ export default function Practice() {
             // If answered correctly, remove from wrong questions if it exists
             await removeWrongQuestion(`${questionBank.id}_${currentQuestion.id}`);
         }
+
+        // Auto-advance to next question when answered correctly
+        if (isCorrect) {
+            // clear any existing timer
+            if (autoAdvanceTimerRef.current) {
+                clearTimeout(autoAdvanceTimerRef.current);
+            }
+
+            // small delay so user can see the correct feedback
+            autoAdvanceTimerRef.current = setTimeout(() => {
+                autoAdvanceTimerRef.current = null;
+                handleNext();
+            }, 700);
+        }
     };
+
+    // clear timer on unmount
+    useEffect(() => {
+        return () => {
+            if (autoAdvanceTimerRef.current) {
+                clearTimeout(autoAdvanceTimerRef.current);
+                autoAdvanceTimerRef.current = null;
+            }
+        };
+    }, []);
 
     const handlePrevious = () => {
         if (currentIndex > 0) {
