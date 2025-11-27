@@ -57,7 +57,7 @@ export default function Home() {
                 {/* Hero Section */}
                 <div className="text-center mb-12">
                     <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
-                        欢迎来到刷题练习系统
+                        欢迎来到刷题练习
                     </h1>
                     <p className="text-gray-300 text-lg">
                         导入题库，开始练习，轻松掌握知识点
